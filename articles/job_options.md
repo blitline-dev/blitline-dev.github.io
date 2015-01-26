@@ -1,3 +1,8 @@
+---
+title: "Blitline Job Options"
+layout: article
+---
+
 Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, **functions**) there are many other options available. We will outline some of the most useful ones below:
 
 #### Common
