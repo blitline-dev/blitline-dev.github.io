@@ -1,3 +1,7 @@
+---
+title: "Blitline Jobs Overview"
+layout: article
+---
 
 A Blitline job is an atomic unit of work on Blitline. The only thing you can submit to Blitline is **jobs**.
 
