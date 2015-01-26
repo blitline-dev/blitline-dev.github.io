@@ -50,7 +50,6 @@ You can use something like curl:
 curl 'http://api.blitline.com/job' -d json='{ "application_id": "YOUR_APP_ID", "src" : "http://www.google.com/logos/2011/yokoyama11-hp.jpg", "v" : 1.20, "functions" : [ {"name": "blur", "params" : {"radius" : 0.0,  "sigma" : 2.0}, "save" : { "image_identifier" : "MY_CLIENT_ID" }} ]}'
 ```
 
-or [Hurl.it](http://www.hurl.it/?method=POST&url=http://api.blitline.com/job&headers={%22Content-Type%22:[%22application/json%22]}&body={%22application_id%22:%20%22YOUR_APP_ID%22,%22src%22:%20%22http://cdn.blitline.com/filters/boys.jpeg%22,%22v%22%20:%201.20,%22functions%22:%20[{%22name%22:%20%22resize_to_fit%22,%22params%22:%20{%22width%22:%20100},%22save%22:%20{%22image_identifier%22:%20%22MY_CLIENT_ID%22}}]}) which will show you to request/response data
 
 or even our own **Gist Runner**: 
 [http://www.blitline.com/docs/gist\_runner?gist\_id=3765044](http://www.blitline.com/docs/gist_runner?gist_id=3765044)
