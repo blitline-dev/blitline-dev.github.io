@@ -1,3 +1,8 @@
+---
+title: "Blitline Jobs Overview"
+layout: article
+---
+
 Functions are the operations that can be performed on images.
 
 You can have 1 or more functions, and you can pipeline functions so that the output of 1 function is the input to the next function.
@@ -12,7 +17,7 @@ Functions have a **name** node and the have a  **params** node. Like functions i
 
 A typical function looks like this:
 
-```json
+{% highlight json %}
 {
     "name":"annotate",
     "params":{
@@ -20,7 +25,7 @@ A typical function looks like this:
         "color":"#ffffff"
     }
 }
-```
+{% endhighlight %}
 
 #### Outputting Images
 
@@ -30,7 +35,7 @@ When you **save** an image, you must give it an **image\_identifier** which is h
 
 To output an image after a function has completed just add a **save** node to the function node. For example:
 
-```json
+{% highlight json %}
 {
     "name":"annotate",
     "params":{
@@ -45,7 +50,7 @@ To output an image after a function has completed just add a **save** node to th
         }
     }
 }
-```
+{% endhighlight %}
 
 In this example we have a **save** field which has an **image-identifier** as well as an **s3\_destination** defined. The **s3\_destination** simply contains an s3 **key** and **bucket**. You will need to [setup S3 permissions](http://www.blitline.com/docs/s3_permissions) to allow Blitline to write to your bucket.
 
@@ -53,7 +58,7 @@ In this example we have a **save** field which has an **image-identifier** as we
 
 A common scenario is that you may want to chain functions together, such as annotating an image, and then resizing it to a smaller thumbnail. You can easily accomplish this by adding functions *inside* of other functions. For example:
 
-```json
+{% highlight json %}
 {
     "name": "annotate",
     "params": {
@@ -83,6 +88,6 @@ A common scenario is that you may want to chain functions together, such as anno
         }
     ]
 }
-```
+{% endhighlight %}
 
 In the example above, we see a new **functions** array inside the parent **functions** array node. This indicates that the parent function will be performed and the embedded function will be performed on the output of the parent **functions**
