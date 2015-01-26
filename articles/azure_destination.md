@@ -30,7 +30,7 @@ Tips for making SAS (Shared access signature)
 
 Here is a full Blitline job example, including a sample "azure_destination":
 
-```json
+{% highlight json %}
 job : '{
   "application_id": "YOUR_APP_ID",
   "src" : "http://www.google.com/logos/2011/houdini11-hp.jpg",
@@ -46,7 +46,7 @@ job : '{
       }
     }]
   }'
-```
+{% endhighlight %}
 
 #### Important File type information:
 
