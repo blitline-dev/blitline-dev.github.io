@@ -20,7 +20,7 @@ There are many [more options](/foo/bar) that can be added here, but these are th
 
 So, the JSON to submit would look something like this:
 
-```json
+{% highlight json %}
 {
     "application_id": "YOUR_APP_ID",
     "src": "http://cdn.blitline.com/filters/boys.jpeg",
@@ -37,7 +37,7 @@ So, the JSON to submit would look something like this:
         }
     ]
 }
-```
+{% endhighlight %}
 
 You would take this JSON and submit it via post to http://api.blitline.com/job
 
