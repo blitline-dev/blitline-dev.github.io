@@ -3,6 +3,8 @@ title: "Blitline Jobs Overview"
 layout: article
 ---
 
+## Blitline Job
+
 A Blitline job is an atomic unit of work on Blitline. The only thing you can submit to Blitline is **jobs**.
 
 Jobs consist of a chunk of JSON defining some operations you wish to perform.
