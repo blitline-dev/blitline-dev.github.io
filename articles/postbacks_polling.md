@@ -1,3 +1,8 @@
+---
+title: "Blitline Postbacks and Polling Overview"
+layout: article
+---
+
 Blitline runs your jobs asynchronously, which means that after you submit your job, there will be a variable amount to time before your job has completed. 
 
 There are 2 ways for you to *know* that your job has completed: Postbacks and polling.
@@ -31,7 +36,7 @@ The JSON returned will always have a **results** as the root node. Under results
 ---
 ###### Successful Result Example:
 
-```json
+{% highlight json %}
 {
     "results": {
         "original_meta": {
@@ -51,12 +56,12 @@ The JSON returned will always have a **results** as the root node. Under results
         "job_id": "2m-Ir2YMXQ3yec0NV476xag"
     }
 }
-```
+{% endhighlight %}
 
 ---
 ###### <span style="color:red">Failed</span> Result Example:
 
-```json
+{% highlight json %}
 {
     "results": {
         "original_meta": {},
@@ -70,7 +75,7 @@ The JSON returned will always have a **results** as the root node. Under results
         ]
     }
 }
-```
+{% endhighlight %}
 
 ### How do I get a Postback?
 
