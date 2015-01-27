@@ -10,7 +10,9 @@ Understanding Blitline:
 
 - [Blitline Jobs](/articles/jobs.html)
 - [Jobs Responses](/articles/job_response.html)
+- [Jobs Options](/articles/job_options.html)
 - [Functions](/articles/functions.html)
+- [Polling and Postbacks](/articles/postbacks_polling.html)
 
 Other:
 
