@@ -46,9 +46,9 @@ You would take this JSON and submit it via post to http://api.blitline.com/job
 
 You can use something like curl:
 
-```
+{% highlight bash %}
 curl 'http://api.blitline.com/job' -d json='{ "application_id": "YOUR_APP_ID", "src" : "http://www.google.com/logos/2011/yokoyama11-hp.jpg", "v" : 1.20, "functions" : [ {"name": "blur", "params" : {"radius" : 0.0,  "sigma" : 2.0}, "save" : { "image_identifier" : "MY_CLIENT_ID" }} ]}'
-```
+{% endhighlight %}
 
 
 or even our own **Gist Runner**: 
