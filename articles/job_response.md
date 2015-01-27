@@ -11,7 +11,7 @@ The response does not indicate the the job has **completed**, just that it has b
 
 The JSON response will look like this:
 
-```json
+{% highlight json %}
 {
     "results": {
         "images": [
@@ -23,7 +23,7 @@ The JSON response will look like this:
         "job_id": "6eN7w77aj9DGnu6KG6qv2bA"
     }
 }
-```
+{% endhighlight %}
 
 It will have a root key of **results**.
 
@@ -37,13 +37,13 @@ These **images** nodes will each contain an **s3\_url** indicating where the ima
 
 In the event there was an error upon submission, there will be a 4xx or 500 response code and the response JSON will look like this:
 
-```json
+{% highlight json %}
 {
     "results": {
         "error": "Your application ID is required to process any job. Check your Blitline account page for your application ID"
     }
 }
-```
+{% endhighlight %}
 
 It will have a root key of **results**.
 
