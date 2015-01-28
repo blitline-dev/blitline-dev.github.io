@@ -7,3 +7,6 @@ layout: article
 
 Lets add some stuff
 
+*** Blah
+*** Foo
+*** Bar
