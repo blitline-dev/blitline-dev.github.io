@@ -72,20 +72,20 @@ layout: default
       <div class="row">
          <div class="col-md-12">
             <div class="align-center">
-                <h3 class="font-bree-serif">Frequently Asked Questions:</h1>
+                <h1 class="font-bree-serif">Frequently Asked Questions:</h1>
             </div>
          </div>
       </div>
       <div class="row">
          <div class="col-md-6">
-            <h2>Do you store my photos?</h2>
+            <h4>Do you store my photos?</h4>
             <div class="alert alert-info">
                <h3>No.</h3>
                <div>You need to supply a location for us to put your photos. Usually this is Amazon S3, but we also support Azure.</div>
             </div>
          </div>
          <div class="col-md-6">
-            <h2>How do I use Blitline</h2>
+            <h4>How do I use Blitline</h4>
             <div class="alert alert-info">
                <div>Our <a href="http://prezi.com/vjc4-fjd3uxp/blitline-workflow/">workflow</a> is simple. Submit some JSON to the Blitline server. You can read more about this JSON on our <a href="/docs/api">API</a> page.</div>
             </div>
@@ -93,13 +93,13 @@ layout: default
       </div>
       <div class="row">
          <div class="col-md-6">
-            <h2>How do I retrieve my images?</h2>
+            <h4>How do I retrieve my images?</h4>
             <div class="alert alert-info">
                <div>Blitline saves all images to Amazon S3. If you are using S3 as well, you can simply <a href="/docs/s3_permissions">give Blitline permission to a bucket</a>, and we can post the images directly to your account (this is the ideal scenario). Otherwise, you will need to go get the images from the url that Blitline returns to you. Blitline will store the images for a limited amount of time (currently ~1 day), after which they will be removed and inaccessible.</div>
             </div>
          </div>
          <div class="col-md-6">
-            <h2>Does the image source always have to be a URL? Can I <b>upload</b> images to Blitline?</h2>
+            <h4>Does the image source always have to be a URL? Can I <b>upload</b> images to Blitline?</h4>
             <div class="alert alert-info">
                <div>Blitline only supports urls for sources. We suggest you use S3 which allows <a href="http://aws.amazon.com/articles/1434">direct browser uploads</a>. You might also be interested in reading our <a href="http://blog.blitline.com/post/26801129096/why-no-upload-directly-to-blitline">blog post</a> about this very subject.</div>
             </div>
@@ -107,13 +107,13 @@ layout: default
       </div>
       <div class="row">
          <div class="col-md-6">
-            <h2>Why does that save value need an "image_identifier"?</h2>
+            <h4>Why does that save value need an "image_identifier"?</h4>
             <div class="alert alert-info">
                <div>Since Blitline can perform many operations on a single image, it is important that when we return data to you, you know which image we are processing. When you give us an "image_identifier", we return this "image_identifier" back to you with results for that save operation.</div>
             </div>
          </div>
          <div class="col-md-6">
-            <h2>Why are some of my photos coming back as png when I asked for jpg?</h2>
+            <h4>Why are some of my photos coming back as png when I asked for jpg?</h4>
             <div class="alert alert-info">
                <div>On certain types of functions (such as rotate, photograph, and composite) there is a transparent layer that is generated. Jpgs do not support that kind of transparency and so we have to change them to png. You can override this behavior by adding "extension" : ".jpg" to the "save" hash if you want the image to be jpg even thought the transparent layer will be forced to white.</div>
             </div>
@@ -121,13 +121,13 @@ layout: default
       </div>
       <div class="row">
          <div class="col-md-6">
-            <h2>Can I really submit 1000s photos at once?</h2>
+            <h4>Can I really submit 1000s photos at once?</h4>
             <div class="alert alert-info">
                <div>Absolutely. Thousands is not a problem.</div>
             </div>
          </div>
          <div class="col-md-6">
-            <h2>Are there rate limits?</h2>
+            <h4>Are there rate limits?</h4>
             <div class="alert alert-info">
                <div>We ask that you for each account you keep api job posts below 300,000/hr and 5,000,000/day. If you need more than that please contact us at support@blitline.com.</div>
             </div>
@@ -135,7 +135,7 @@ layout: default
       </div>
       <div class="row">
          <div class="col-md-6">
-            <h2>Can I perform multiple operations on an image? Is there an image "Pipeline"</h2>
+            <h4>Can I perform multiple operations on an image? Is there an image "Pipeline"</h4>
             <div class="alert info">
                <div>Absolutely. You can perform multiple functions and multiple subfunctions on an image. You might have an image that you wanted to rotate, and then crop/thumbnail to 2 different smaller sizes. This can all be accomplished through a single json call. You can check our our <a href="/docs/examples">examples</a> or the more in depth</div>
             </div>
