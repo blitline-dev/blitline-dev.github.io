@@ -5,7 +5,6 @@ layout: article
 
 Getting Started:
 
-
 Understanding Blitline:
 
 - [Blitline Jobs](/articles/jobs.html)
