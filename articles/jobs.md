@@ -6,7 +6,9 @@ layout: article
 ## Blitline Job
 
 A Blitline job is an atomic unit of work on Blitline. 
+
 The only thing you can submit to Blitline is **jobs**.
+
 Jobs consist of a chunk of JSON defining some operations you wish to perform.
 
 ---
@@ -46,6 +48,7 @@ So, the JSON to submit would look something like this:
 
 You would take this JSON and submit it via POST to http(s)://api.blitline.com/job
 
+---
 
 #### Examples
 
