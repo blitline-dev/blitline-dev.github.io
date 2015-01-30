@@ -2,7 +2,7 @@ jQuery.fn.toc = function () {
   if(this.length === 0)
     return;
 
-  var listStack = [ $("<ul class='nav nav-list' />")];
+  var listStack = [ $("<ul />")];
   listStack[0].appendTo(this);
 
   Array.prototype.last = function() { return this[this.length - 1]};
