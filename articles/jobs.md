@@ -5,10 +5,9 @@ layout: article
 
 ## Blitline Job
 
-A Blitline job is an atomic unit of work on Blitline. The only thing you can submit to Blitline is **jobs**.
-
+A Blitline job is an atomic unit of work on Blitline. 
+The only thing you can submit to Blitline is **jobs**.
 Jobs consist of a chunk of JSON defining some operations you wish to perform.
-
 
 ---
 
@@ -19,9 +18,11 @@ A job consists of 4 primary elements:
 - **functions** - An array of operations (like crop, resize, etc) to be performed on this job.
 - **v** - Version number of API (current is 1.20)
 
+---
+
 There are many [more options](/articles/advanced_options.html) that can be added here, but these are the primary ones that should be added when submitting jobs.
 
-
+---
 So, the JSON to submit would look something like this:
 
 {% highlight json %}
@@ -43,7 +44,7 @@ So, the JSON to submit would look something like this:
 }
 {% endhighlight %}
 
-You would take this JSON and submit it via post to http://api.blitline.com/job
+You would take this JSON and submit it via POST to http(s)://api.blitline.com/job
 
 
 #### Examples
