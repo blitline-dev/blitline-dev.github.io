@@ -18,7 +18,7 @@ A job consists of 4 primary elements:
 - **functions** - An array of operations (like crop, resize, etc) to be performed on this job.
 - **v** - Version number of API (current is 1.20)
 
-There are many [more options](/foo/bar) that can be added here, but these are the primary ones that should be added when submitting jobs.
+There are many [more options](/articles/advanced_options.html) that can be added here, but these are the primary ones that should be added when submitting jobs.
 
 So, the JSON to submit would look something like this:
 
@@ -44,7 +44,7 @@ So, the JSON to submit would look something like this:
 You would take this JSON and submit it via post to http://api.blitline.com/job
 
 
-### Examples
+#### Examples
 
 You can use something like curl:
 
