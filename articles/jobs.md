@@ -9,6 +9,7 @@ A Blitline job is an atomic unit of work on Blitline. The only thing you can sub
 
 Jobs consist of a chunk of JSON defining some operations you wish to perform.
 
+
 ---
 
 A job consists of 4 primary elements:
@@ -19,6 +20,7 @@ A job consists of 4 primary elements:
 - **v** - Version number of API (current is 1.20)
 
 There are many [more options](/articles/advanced_options.html) that can be added here, but these are the primary ones that should be added when submitting jobs.
+
 
 So, the JSON to submit would look something like this:
 
