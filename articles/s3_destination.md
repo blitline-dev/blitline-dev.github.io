@@ -9,7 +9,7 @@ It is VERY important that you set your AWS Canonical ID on your Blitline.com acc
 
 ---
 
-[](//s3.amazonaws.com/web.blitline/blog/canonical_id.jpg)
+<!>["Canonical ID"](//s3.amazonaws.com/web.blitline/blog/canonical_id.jpg)
 
 ---
 
