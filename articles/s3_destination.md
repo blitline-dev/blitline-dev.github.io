@@ -9,7 +9,7 @@ It is VERY important that you set your AWS Canonical ID on your Blitline.com acc
 
 ---
 
-<!>["Canonical ID"](//s3.amazonaws.com/web.blitline/blog/canonical_id.jpg)
+!["Canonical ID"](//s3.amazonaws.com/web.blitline/blog/canonical_id.jpg)
 
 ---
 
@@ -22,7 +22,7 @@ First, make sure you are logged in to the AWS web console. Then navigate to http
 On this screen you will click the 
 **Account Identifiers** section.
 
-[](https://s3.amazonaws.com/web.blitline/blog/canonical_location.jpg)
+!["Canonical Location"](https://s3.amazonaws.com/web.blitline/blog/canonical_location.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ You can do this through the AWS web console:
 * Click the **Properties** button on the top of the screen
 * Click the **Add Bucket Policy** bucket under **Permissions**
 
-["Bucket Properties"](https://s3.amazonaws.com/web.blitline/blog/bucket_properties.jpg)
+!["Bucket Properties"](https://s3.amazonaws.com/web.blitline/blog/bucket_properties.jpg)
 
 * In the text area that appears, copy and paste the following code (Replace the **YOUR\_BUCKET\_NAME** placeholder text with your actual bucket name) 
 
