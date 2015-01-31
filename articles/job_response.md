@@ -5,11 +5,17 @@ layout: article
 
 ###Response
 
-When you submit a job to Blitline you will get a JSON response. If successful the response code will be 200 and you will receive json back, indicating that the job has been accepted, a job_id, and a final destination url of the "soon to be outputted" jobs.
+When you submit a job to Blitline you will get a JSON response. If successful the response code will be 200 and you will receive json back, indicating that the job has been accepted, a job_id, and a final destination url of the "soon to be outputted" jobs
+
+<br/>
 
 The response does not indicate the the job has **completed**, just that it has been put into the queue to be completed **soon** (typically milliseconds).
 
+<br/>
+
 The JSON response will look like this:
+
+<br/>
 
 {% highlight json %}
 {
@@ -25,9 +31,13 @@ The JSON response will look like this:
 }
 {% endhighlight %}
 
+<br/>
+
 It will have a root key of **results**.
+<br/>
 
 This in turn will contain a **job\_id** and array of **images** nodes. 
+<br/>
 
 These **images** nodes will each contain an **s3\_url** indicating where the image will be outputted to, and an **image\_identifier** which will indicate which output file we are talking about.
 
@@ -35,7 +45,11 @@ These **images** nodes will each contain an **s3\_url** indicating where the ima
 
 ### Error Response
 
+<br/>
+
 In the event there was an error upon submission, there will be a 4xx or 500 response code and the response JSON will look like this:
+
+<br/>
 
 {% highlight json %}
 {
@@ -45,6 +59,10 @@ In the event there was an error upon submission, there will be a 4xx or 500 resp
 }
 {% endhighlight %}
 
+<br/>
+
 It will have a root key of **results**.
+
+<br/>
 
 This in turn will contain an **error** with a description of the error along with a suggestion for fixing (if available).

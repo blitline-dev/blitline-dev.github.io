@@ -5,6 +5,8 @@ layout: article
 
 Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, **functions**) there are many other options available. We will outline some of the most useful ones below:
 
+<br/>
+
 ### Common
 
 - **postback_url**(string) - This indicates the URL that Blitline will call back once the job has completed. (Think of it as the webhook that gets called when this job completes).
@@ -12,6 +14,8 @@ Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, *
 - **postback\_headers**(dictionary) - These are headers that Blitline will add to the postback when the postback_url is called.
 - **wait\_retry\_delay**(int) - If Blitline is unable to download the "src" image, this value indicates how long (in seconds) Blitline will wait before retrying. If this value is missing, Blitline will _not_ retry downloading and, fail immediately.
 - **pre_process**(dictionary) - Defines actions to take before processing this job. Scope is too big to discuss here, please [read more here](/preprocess)
+
+<br/>
 
 ### Specialized
 
@@ -24,6 +28,8 @@ Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, *
   - **(For Screenshots) viewport**(string) - Set the "viewport" (virtual browser size) for screenshot. Uses the format "WIDTHxHEIGHT" (e.g. "300x480")
   - **(For Screenshots) delay**(int) - The delay (in seconds) after the page loads to wait before the screenshot is taken. This allows javascript that was running "onLoad" to finish rendering. By default this is 5. (Set to 0 for faster screenshots if you don't do asynchronous javascript rendering)
   - **(For PDFs) dpi**(int) - Sets the density at which the PDF will be rasterized. If making a printable image, you probably want this to be 200 at least.
+
+<br/>
 
 ### Less Common
 
