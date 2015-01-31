@@ -1,6 +1,12 @@
 /* Mixins.scss
  * Snippets of reusable CSS to develop faster and keep code readable
  * ----------------------------------------------------------------- */
+ 
+ img {
+   max-width: 100%;
+   margin: 20px 0 20px 0;
+ }
+ 
 .clearfix {
   zoom: 1; }
   .clearfix:before, .clearfix:after {
