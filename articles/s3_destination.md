@@ -3,8 +3,73 @@ title: "S3 Destination"
 layout: article
 ---
 
+#### Setting your AWS Canonical ID
+
+It is VERY important that you set your AWS Canonical ID on your Blitline.com account. You can set the Canonical ID by logging in to Blitline.com, and locating it on the logged in homepage.
+
+{<1>}![](//s3.amazonaws.com/web.blitline/blog/canonical_id.jpg)
+
+Without the Canonical ID, we cannot make YOU the owner of the image. Even though it is in **your** bucket, Blitline will still be the owner of the object and you will not be able to do anything to it (such as rename, or re-permission) and your only option will be to **copy** it somewhere, thus making you the owner of the copy. SO, make sure you set the Canonical ID!
+
+####How do I get my AWS Canonical ID?
+
+First, make sure you are logged in to the AWS web console. Then navigate to https://console.aws.amazon.com/iam/home?#security_credential 
+
+On this screen you will click the 
+**Account Identifiers** section.
+{<2>}![](https://s3.amazonaws.com/web.blitline/blog/canonical_location.jpg)
+
+Copy and paste this into the Blitline.com homepage Canonical ID section, and click the **Update** button.
+
+
+#### S3 Permission
+Please make sure you have already set your [Canonical ID](http://107.170.77.57/#post10) before proceeding. 
+
+You will need to give Blitline permission to write to your S3 buckets.
+
+You can do this through the AWS web console:
+
+* Navigate to S3 and the list of your buckets
+* Select your bucket in the left column
+* Click the **Properties** button on the top of the screen
+* Click the **Add Bucket Policy** bucket under **Permissions**
+
+{<1>}!["Title"](https://s3.amazonaws.com/web.blitline/blog/bucket_properties.jpg)
+
+* In the text area that appears, copy and paste the following code (Replace the **YOUR\_BUCKET\_NAME** placeholder text with your actual bucket name) 
+
+{% highlight json %}
+  {
+     "Version": "2008-10-17",
+     "Statement": [
+      {
+        "Sid": "AddCannedAcl",
+        "Effect": "Allow",
+        "Principal": { "CanonicalUser": "dd81f2e5f9fd34f0fca01d29c62e6ae6cafd33079d99d14ad22fbbea41f36d9a"},
+        "Action": [
+          "s3:PutObjectAcl",
+          "s3:PutObject"
+        ],
+        "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
+      },
+      {
+        "Effect": "Allow",
+        "Principal": { "CanonicalUser": "dd81f2e5f9fd34f0fca01d29c62e6ae6cafd33079d99d14ad22fbbea41f36d9a"},
+        "Action": [
+          "s3:GetBucketLocation"
+        ],
+        "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME"
+      }
+    ]
+  }
+{% endhighlight %}
+
+* Click the **Save** button.
+* (Optional) If you want Blitline to be able to *READ* from your bucket, add **s3:GetObject** under **Action** as well...
+
+This permission policy above allows Blitline to write to your bucket.
+
 ###Pushing to your S3 Bucket
-<span style="color:red">Please make sure you have already set up your [S3 Bucket permissions and Canonical ID](/s3-permissions) specified before you continue with this section.</span> 
 
 In your Blitline job, you will need to add an "s3\_destination". This "s3\_destination" needs to have the following children:
 
@@ -18,7 +83,7 @@ In your Blitline job, you will need to add an "s3\_destination". This "s3\_desti
 ####Example:
 Here is a full example of a Blitline job which pushes the results to an S3 object.
 
-```json
+{% highlight json %}
 job : '{
   "application_id": "YOUR_APP_ID",
   "src" : "http://www.google.com/logos/2011/houdini11-hp.jpg",
@@ -34,7 +99,7 @@ job : '{
       }
     }]
   }'
-```
+{% endhighlight %}
 
 
 
