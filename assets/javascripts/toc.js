@@ -7,7 +7,7 @@ jQuery.fn.toc = function () {
 
   Array.prototype.last = function() { return this[this.length - 1]};
 
-  var level = 2;
+  var level = 3;
   $(document).ready(function() {
     $(":header").filter(function(idx, el) {
       // filter out H1

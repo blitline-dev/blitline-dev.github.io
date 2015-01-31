@@ -3,7 +3,7 @@ title: "S3 Destination"
 layout: article
 ---
 
-#### Setting your AWS Canonical ID
+### Setting your AWS Canonical ID
 
 It is VERY important that you set your AWS Canonical ID on your Blitline.com account. You can set the Canonical ID by logging in to Blitline.com, and locating it on the logged in homepage.
 
@@ -15,12 +15,20 @@ It is VERY important that you set your AWS Canonical ID on your Blitline.com acc
 
 Without the Canonical ID, we cannot make YOU the owner of the image. Even though it is in **your** bucket, Blitline will still be the owner of the object and you will not be able to do anything to it (such as rename, or re-permission) and your only option will be to **copy** it somewhere, thus making you the owner of the copy. SO, make sure you set the Canonical ID!
 
-#### How do I get my AWS Canonical ID?
+---
+
+### How do I get my AWS Canonical ID?
+
+---
 
 First, make sure you are logged in to the AWS web console. Then navigate to https://console.aws.amazon.com/iam/home?#security_credential 
 
+--- 
+
 On this screen you will click the 
 **Account Identifiers** section.
+
+--- 
 
 !["Canonical Location"](https://s3.amazonaws.com/web.blitline/blog/canonical_location.jpg)
 
@@ -28,23 +36,38 @@ On this screen you will click the
 
 Copy and paste this into the Blitline.com homepage Canonical ID section, and click the **Update** button.
 
+---
 
-#### S3 Permission
+### S3 Permission
+
+---
 
 Please make sure you have already set your [Canonical ID](http://107.170.77.57/#post10) before proceeding. 
 
+<br/>
+
 You will need to give Blitline permission to write to your S3 buckets.
 
+<br/>
+
 You can do this through the AWS web console:
+
+<br/>
 
 * Navigate to S3 and the list of your buckets
 * Select your bucket in the left column
 * Click the **Properties** button on the top of the screen
 * Click the **Add Bucket Policy** bucket under **Permissions**
 
+---
+
 !["Bucket Properties"](https://s3.amazonaws.com/web.blitline/blog/bucket_properties.jpg)
 
+---
+
 * In the text area that appears, copy and paste the following code (Replace the **YOUR\_BUCKET\_NAME** placeholder text with your actual bucket name) 
+
+---
 
 {% highlight json %}
   {
@@ -72,14 +95,22 @@ You can do this through the AWS web console:
   }
 {% endhighlight %}
 
+<br/>
+
 * Click the **Save** button.
 * (Optional) If you want Blitline to be able to *READ* from your bucket, add **s3:GetObject** under **Action** as well...
 
+  
 This permission policy above allows Blitline to write to your bucket.
 
-###Pushing to your S3 Bucket
+### Pushing to your S3 Bucket
+
+<br/>
 
 In your Blitline job, you will need to add an "s3\_destination". This "s3\_destination" needs to have the following children:
+
+  
+<br/>
 
 - **bucket** (Your S3 bucket to push to) 
 
@@ -87,9 +118,15 @@ In your Blitline job, you will need to add an "s3\_destination". This "s3\_desti
 
 - **headers** (Optional headers you wish to have added to your S3 item)
 
+<br/>
 
-####Example:
+###Example:
+
+<br/>
+
 Here is a full example of a Blitline job which pushes the results to an S3 object.
+
+<br/>
 
 {% highlight json %}
 {
@@ -109,14 +146,21 @@ Here is a full example of a Blitline job which pushes the results to an S3 objec
   }
 {% endhighlight %}
 
+<br/>
 
-#### Important File type information:
+### Important File type information:
+
+---
 
 Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easier discernable from the key. To accomodate this, we have an additional modifier to the "s3\_destination" that allows you to set the output filetype without using an extension.
 
-By setting
+<br/>
 
-**"force_type" : "pdf" (or "jpg, png, webp, etc)**
+By setting:
+
+**"force_type" : "pdf" (or jpg, png, webp, etc)**
+
+<br/>
 
 You can tell Blitline that it should save the file as this type before pushing to your destination.
 
