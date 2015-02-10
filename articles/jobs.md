@@ -5,9 +5,15 @@ layout: article
 
 ## Blitline Job
 
+<br/>
+
 A Blitline job is an atomic unit of work on Blitline. 
 
+<br/>
+
 The only thing you can submit to Blitline is **jobs**.
+
+<br/>
 
 Jobs consist of a chunk of JSON defining some operations you wish to perform.
 
@@ -15,10 +21,12 @@ Jobs consist of a chunk of JSON defining some operations you wish to perform.
 
 A job consists of 4 primary elements:
 
-- **application_id** - Your Blitline application ID which you get when you sign up for Blitline
-- **src** - A image URL that will be the image you are performing your Blitline job on
-- **functions** - An array of operations (like crop, resize, etc) to be performed on this job.
-- **v** - Version number of API (current is 1.20)
+<br/>
+
+- **application_id** : Your Blitline application ID which you get when you sign up for Blitline
+- **src** : A image URL that will be the image you are performing your Blitline job on
+- **functions** : An array of operations (like crop, resize, etc) to be performed on this job.
+- **v** : Version number of API (current is 1.21)
 
 ---
 
@@ -26,6 +34,8 @@ There are many [more options](/articles/advanced_options.html) that can be added
 
 ---
 So, the JSON to submit would look something like this:
+
+<br/>
 
 {% highlight json %}
 {
@@ -46,19 +56,26 @@ So, the JSON to submit would look something like this:
 }
 {% endhighlight %}
 
+<br/>
+
 You would take this JSON and submit it via POST to http(s)://api.blitline.com/job
 
 ---
 
 #### Examples
 
+<br/>
+
 You can use something like curl:
+
+<br/>
 
 {% highlight bash %}
 curl 'http://api.blitline.com/job' -d json='{ "application_id": "YOUR_APP_ID", "src" : "http://www.google.com/logos/2011/yokoyama11-hp.jpg", "v" : 1.20, "functions" : [ {"name": "blur", "params" : {"radius" : 0.0,  "sigma" : 2.0}, "save" : { "image_identifier" : "MY_CLIENT_ID" }} ]}'
 {% endhighlight %}
 
+<br/>
 
-or even our own **Gist Runner**: 
-[http://www.blitline.com/docs/gist\_runner?gist\_id=3765044](http://www.blitline.com/docs/gist_runner?gist_id=3765044)
+...or even our own **Gist Runner**: [http://www.blitline.com/docs/gist\_runner?gist\_id=3765044](http://www.blitline.com/docs/gist_runner?gist_id=3765044)
 
+<br/>
