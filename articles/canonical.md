@@ -1,3 +1,8 @@
+---
+title: "Setting Canonical ID"
+layout: article
+---
+
 #### Setting your AWS Canonical ID
 
 It is VERY important that you set your AWS Canonical ID on your Blitline.com account. You can set the Canonical ID by logging in to Blitline.com, and locating it on the logged in homepage.

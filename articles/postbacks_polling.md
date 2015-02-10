@@ -3,6 +3,10 @@ title: "Blitline Postbacks and Polling Overview"
 layout: article
 ---
 
+<h1> Postbacks/Polling </h1>
+
+<br/>
+
 Blitline runs your jobs asynchronously, which means that after you submit your job, there will be a variable amount to time before your job has completed. 
 
 <br/>
@@ -44,12 +48,12 @@ The JSON returned will always have a **results** as the root node. Under results
 
 <br/>
 
-#### Optional nodes
+### Optional nodes
 - **errors** - In the event of an error during processing, this node will contain an array of Strings containing the error messages.
 - **failed\_image\_identifiers** - In the event of an error, this node will contain an array of **image\_identifiers** that did NOT get processed.
 
 ---
-###### Successful Result Example:
+### Successful Result Example:
 
 <br/>
 

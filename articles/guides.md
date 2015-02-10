@@ -19,19 +19,20 @@ Outputting:
 
 Specialized Processing:
 
-- [PDF](/articles/pdfs.html)
+- [PDF](/articles/pdf.html)
 - [GIF](/articles/gif.html)
-- [Screenshots](/articles/gif.html)
+- [Screenshots](/articles/screenshots.html)
 - [Advanced Image Processing](/articles/gif.html)
-- [Smart Cropping](/articles/gif.html)
-- [Vector](/articles/gif.html)
+- [Smart Cropping](/articles/smart_cropping.html)
+- [Vector](/articles/vector.html)
 - [Alternate Formats](/articles/gif.html)
-- [Fonts](/articles/gif.html)
-- [IM Scripts](/articles/gif.html)
-- [Video Keyframes](/articles/gif.html)
+- [Fonts](/articles/fonts.html)
+- [IM Scripts](/articles/scripts.html)
+- [Video Keyframes](/articles/video_keyframes.html)
 
 Common Problems: (we help you solve)
 
-- [Image Deduping](/articles/gif.html)
-- [SEO Optimization](/articles/gif.html)
-- [CDN](/articles/gif.html)
+- [Image Deduping](/articles/deduping.html)
+- [SEO Optimization](/articles/seo.html)
+- [CDN](/articles/cdn.html)
+- [Signed Jobs](/articles/signed_jobs.html) Keeping your App ID Secret!

@@ -8,6 +8,7 @@ layout: article
 Bursting allows you to explode the PDF into all the individual pages and run them all in parallel on Blitline's massive image processing cloud. This allows HUGE PDF's to be processed in a fraction of the time it would take to do it on your own machine or in a linear fashion.
 
 --- 
+<br/>
 
 Here is what happens behind the scenes:
 
@@ -19,8 +20,10 @@ Here is what happens behind the scenes:
 #### How to submit a PDF for bursting?
 
 To tell Blitline that you wish to **burst** a PDF, you must set the **src_type** to "burst\_pdf".
+<br/>
 
 An example job would look like this:
+<br/>
 
 {% highlight json %}
 {
@@ -44,8 +47,10 @@ An example job would look like this:
     ]
 }
 {% endhighlight %}
+<br/>
 
 The resulting **RESPONSE** will look like this:
+<br/>
 
 {% highlight json %}
 {
@@ -61,7 +66,10 @@ The resulting **RESPONSE** will look like this:
   }
 {% endhighlight %}
 
+<br/>
+
 Notice there is a <span style="color:red;">**group\_completion\_job\_id**</span>, which is a  "virtual job\_id" indicating the completion of the group of jobs. You can poll this **group\_completion\_job\_id** just as you would a regular job. It will also be the job_id of the postback when ALL the individual jobs are completed.
+<br/>
 
 ###Notes:
 
