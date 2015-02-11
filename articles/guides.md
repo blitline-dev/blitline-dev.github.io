@@ -12,6 +12,7 @@ Getting Started:
 - [Functions](/articles/functions.html)
 - [Polling and Postbacks](/articles/postbacks_polling.html)
 - [Gotchas](/articles/gotchas.html)
+- [Development Recommendations](/articles/recommendations.html)
 
 Outputting:
 
