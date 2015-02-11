@@ -25,6 +25,8 @@ a.active {
     color: #006ca8;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -450,4 +452,9 @@ footer .footer-below {
 
 #about {
     color: #00c4de;
+}
+
+#about a {
+    outline: 0;
+    color: #8cd3f6;
 }

@@ -32,7 +32,6 @@ Specialized Processing:
 - [Screenshots of websites](/articles/screenshots.html)
 - [Advanced Image Processing](/articles/advanced_processing.html)
 - [Vector](/articles/vector.html)
-- [Alternate Formats](/articles/gif.html)
 - [Fonts](/articles/fonts.html)
 - [IM Scripts](/articles/scripts.html)
 - [Video Keyframes](/articles/video_keyframes.html)

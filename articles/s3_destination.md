@@ -152,7 +152,7 @@ Here is a full example of a Blitline job which pushes the results to an S3 objec
 
 ---
 
-Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easier discernable from the key. To accomodate this, we have an additional modifier to the "s3\_destination" that allows you to set the output filetype without using an extension.
+Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easily discernable from the key. To accomodate this, we have an additional modifier to the "s3\_destination" that allows you to set the output filetype without using an extension.
 
 <br/>
 
