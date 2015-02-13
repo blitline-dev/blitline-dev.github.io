@@ -66,3 +66,39 @@ Request Bin will generate a URL for you that you can use as your **postback_url*
 <br/>
 
 Alternately, you can use *polling* wherein you submit data to Blitline, and the poll for the results. The postback data for both polling and postbacks should be the same.
+
+### Retrying Jobs
+
+<br/>
+
+You can have Blitline automatically retry a job if an error occurs during it's processing, or if the "src" image wasn't available at the time Blitline tried to download it. This is useful if you are updloading images to S3 and processing them immediately (because S3 uploads aren't always "available" immediately after you upload them, sometimes there is latency). There are other times where you may want Blitline to just retry the whole job if it fails.
+
+<br/>
+
+You can set:
+
+	"wait_retry_delay" : 5
+
+<br/>
+
+...in the base JSON. This will cause Blitline to automatically re-queue the job and wait for the seconds value of **wait_retry_delay** (in the above case 5 seconds). Thus, if Blitline fails to complete processing of the job, it will requeue the job and try it again in 5 seconds. It will repeat this until it succeeds, or fails X number of times (we, Blitline, decide what X is, currently 5 times).
+
+<br/>
+
+### Retrying Postbacks
+
+<br/>
+
+Another common occurance is that Blitline will attempt to postback to your url, and your server will not be ccepting connections, or be busy and throw an exception.
+
+<br/>
+
+You can set:
+
+	"retry_postback" : true
+
+<br/>
+
+...in the base JSON. This will cause Blitline to automatically retry posting back to your server at various intervals (defined by us, but currently 1,3,15, and 600 seconds). Once the postback is successful, Blitline moves on. If the postback fails more than 4 times, Blitline will 'give up' and consider the job completed with a failed postback.
+
+<br/>

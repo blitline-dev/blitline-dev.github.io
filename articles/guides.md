@@ -25,17 +25,18 @@ Advanced:
 - [Metadata](/articles/metadata.html)
 - [Colorspace](/articles/colorspace.html)
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
+- [Advanced Image Processing](/articles/advanced_processing.html)
 
 Specialized Processing:
 
 - [PDF](/articles/pdf.html)
 - [GIF](/articles/gif.html)
 - [Screenshots of websites](/articles/screenshots.html)
-- [Advanced Image Processing](/articles/advanced_processing.html)
 - [Vector](/articles/vector.html)
 - [Fonts](/articles/fonts.html)
 - [IM Scripts](/articles/scripts.html)
 - [Video Keyframes](/articles/video_keyframes.html)
+- [Zipping](/articles/zipping.html)
 
 Common Problems: (we help you solve)
 

@@ -9,7 +9,7 @@ Below is a list of all the available Blitline functions.
 
 <br/>
 
-### annotate
+### Annotate
 
 **Adds text to an image**
 
@@ -58,7 +58,7 @@ Example: [http://www.blitline.com/docs/gist_runner?gist_id=5437247](http://www.b
 
 <br/>
 
-### append
+### Append
 
 **Appends images together either vertically or horizontally**
 
@@ -1448,6 +1448,12 @@ Sample:
     "params":{}
 }
 {% endhighlight %}
+
+<br/>
+
+Optional:
+
+- **fuzz** : Fuzz the trimming edge. For JPEGs, due to compression or anti-aliasing often times edges aren't a clean line. The "fuzz" values allows you to trim with a slight extra fuzz around the trim area.
 
 <br/>
 

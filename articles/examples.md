@@ -43,6 +43,7 @@ layout: article
 ?gist_id=4390369)	You can even convert other formats to easy to handle png or jpeg files, such as medical DICOM files (Note: File must have extension .dcm)
 - [**Convert CALS to jpg:**](http://www.blitline.com/docs/gist_runner
 ?gist_id=4390482)	You can even convert other formats to easy to handle png or jpeg files, such as CALS files (Note: File must have extension .cals)
+- [**Extract Colors:**](http://www.blitline.com/docs/gist_runner?gist_id=ef6e757f5877d006d222) Extract color information from an image
 - [**SVG Rasterizer:**](http://www.blitline.com/docs/gist_runner
 ?gist_id=8795129)	We can convert your SVG files into raster images (png, jpeg, etc). We use Apache Batik™ for rasterization.
 - [**Rasterize Adobe Illustrator™ AI file:**](http://www.blitline.com/docs/gist_runner
