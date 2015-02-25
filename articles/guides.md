@@ -26,6 +26,7 @@ Advanced:
 - [Colorspace](/articles/colorspace.html)
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
 - [Advanced Image Processing](/articles/advanced_processing.html)
+- [Formats](/articles/formats.html)
 
 Specialized Processing:
 
