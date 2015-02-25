@@ -1179,10 +1179,9 @@ Required:
 - **height** : Height of desired image
 
 
-
 Optional:
 
-- **gravity** : Location of crop (defaults to 'CenterGravity')
+- **autosharpen** : Automatically sharpens image after resize
 - **only_shrink_larger** : Don't upsize image (defaults to false)
 
 <br/>
@@ -1220,6 +1219,7 @@ Required:
 Optional:
 
 - **only_shrink_larger** : Don't upsize image (defaults to false)
+- **autosharpen** : Automatically sharpens image after resize
 
 <br/>
 
@@ -1244,7 +1244,6 @@ Sample:
 Required:
 
 - **amount** : The number of degrees to rotate the image.
-
 
 
 ### Scale
