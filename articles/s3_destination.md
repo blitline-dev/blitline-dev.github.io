@@ -3,6 +3,8 @@ title: "S3 Destination"
 layout: article
 ---
 
+NOTE: If you do not want to give Blitline permission to your buckets, please see [Using S3 Signed Urls](/articles/s3_signed_urls.html)
+
 ### Setting your AWS Canonical ID
 
 It is VERY important that you set your AWS Canonical ID on your Blitline.com account if you are going to let Blitline push images to your bucket. You can set the Canonical ID by logging in to Blitline.com, and locating it on the logged in homepage.
@@ -150,7 +152,7 @@ Here is a full example of a Blitline job which pushes the results to an S3 objec
 
 ### Important File type information:
 
----
+<br/>
 
 Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easily discernable from the key. To accomodate this, we have an additional modifier to the "s3\_destination" that allows you to set the output filetype without using an extension.
 
@@ -164,33 +166,92 @@ By setting:
 
 You can tell Blitline that it should save the file as this type before pushing to your destination.
 
-### NEW! Signed URLs
+<br/>
+
+### Headers
+
+Default Headers
+---
+<br/>
+
+**By default (without Canonical ID set), Blitline sets two headers on uploaded files**
 
 <br/>
 
-AWS offers the ability to **sign** a url which means you can give us ONLY a url, and we are allowed to upload to that specific location in your bucket. (http://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html).
-
-<br/>
-IF you use signed urls you do not need to set your Canonical ID, because we do not 
-
-<br/>
-
-**Important** : You must be able to generate a *signed_url* on your own. We (Blitline) cannot generate it for you. Most modern AWS SDKs allow for creation of these signed_urls
-
-<br/>
-To use these signed urls with Blitline, the "signed_url" sits within an *s3_destination* like this:
-
-<br/>
 {% highlight json %}
-
-"s3_destination" : {
-    "signed_url" : "https://s3.amazonaws.com/images.blitline/everything_is_awesome.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJM928347239487232%2F20150225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20150225T014313Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=fa389a132b45a0d79ef59f8421bdbae4ef8339f5046e2af7444454bca319cd65"
-    "headers" : {
-      "x-amx-acl" : "public-read"
-    }
+{
+    "x-amz-acl" : "public-read",
+    "content-type" : "image/jpg"
 }
-
 {% endhighlight %}
 
-Remember: If you signed a url with headers, you must include those same headers in the *s3_destination*
+- "x-amz-acl" makes it publicly readable.
+
+<br/>
+
+**By default (with Canonical ID set), Blitline sets two headers on uploaded files:**
+
+<br/>
+
+{% highlight json %}
+{
+  "x-amz-grant-read" : "uri=http://acs.amazonaws.com/groups/global/AllUsers",
+  "x-amz-grant-full-control" : "id=<CANONICAL ID>",
+  "content-type":"image/jpg"
+}
+{% endhighlight %}
+
+- "x-amz-grant-read" makes it publicly readable.
+
+- "x-amz-grant-full-control" sets the owner to the canonical id owner
+
+<br/>
+
+Notes:
+---
+
+<br/>
+
+To set your S3 objects to be private by default, set the header:
+
+{% highlight json %} 
+{
+  "x-amz-grant-read" : ""
+}
+{% endhighlight %}
+
+
+Which will remove any read permissions from the object.
+
+<br/>
+
+**Adding your own headers**
+
+<br/>
+
+If you want to add your own header (for example to remove the public permissions as talked about above), you can add a "headers" JSON field to the s3_destination. This will add to or overwrite the existing default headers (so, for example, you can set the 'x-amz-grant-read' to not be public readable)
+ 
+<br/>
+
+{% highlight json %} 
+{
+  "application_id": "YOUR_APP_ID",
+  "src" : "http://www.google.com/logos/2011/houdini11-hp.jpg",
+  "functions" : [{
+      "name": "blur",
+      "save" : {
+          "image_identifier" : "YOUR_IMAGE_IDENTIFIER",
+          "s3_destination" : {
+              "bucket" : "YOUR_BUCKET_NAME",
+              "key" : "key value to save image as",
+              "headers" : {
+                  "x-amz-grant-read" :"",
+                  "x-amz-meta-foo" : "some_metadata"
+              }
+          }
+      }
+    }]
+  }
+{% endhighlight %}
+
 

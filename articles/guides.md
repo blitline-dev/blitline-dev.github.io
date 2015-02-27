@@ -13,10 +13,11 @@ Getting Started:
 - [Polling and Postbacks](/articles/postbacks_polling.html)
 - [Gotchas](/articles/gotchas.html)
 - [Development Recommendations](/articles/recommendations.html)
+- [Service Limits](/articles/limits.html)
 
 Outputting:
 
-- [NEW! S3 Signed Urls](/articles/s3_signed_urls.html)
+- [**NEW!** S3 Signed Urls](/articles/s3_signed_urls.html)
 - [S3 Destination](/articles/s3_destination.html)
 - [Azure Destination](/articles/azure_destination.html)
 - [FTP Destination](/articles/ftp.html)
@@ -26,7 +27,7 @@ Advanced:
 - [Metadata](/articles/metadata.html)
 - [Colorspace](/articles/colorspace.html)
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
-- [Advanced Image Processing](/articles/advanced_processing.html)
+- [**NEW!** Advanced Image Processing](/articles/advanced_processing.html)
 - [Formats](/articles/formats.html)
 
 Specialized Processing:
@@ -37,7 +38,7 @@ Specialized Processing:
 - [Vector](/articles/vector.html)
 - [Fonts](/articles/fonts.html)
 - [IM Scripts](/articles/scripts.html)
-- [Video Keyframes](/articles/video_keyframes.html)
+- [**NEW!** Video Keyframes](/articles/video_keyframes.html)
 - [Zipping](/articles/zipping.html)
 
 Common Problems: (we help you solve)
