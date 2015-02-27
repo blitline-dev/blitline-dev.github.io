@@ -78,8 +78,8 @@ This example just shows a quick sample rails project where the browser uploads d
 
 <br/>
 
-- Ruby: [Blitline Gem:**](https://github.com/blitline-dev/blitline)
-- Node: [Blitline via NPM:**](https://github.com/blitline-dev/simple_blitline_node)
-- Javascript: [Blitline via Browser Javascript:**](https://github.com/blitline-dev/simple_blitline_node)
-- Java: [Blitline via Java:**](https://github.com/chrylis/blitline-java-client)
-- .NET: [Blitline.NET  (Community Maintained):**](https://github.com/chrylis/blitline-java-client)
+- Ruby: [Blitline Gem:](https://github.com/blitline-dev/blitline)
+- Node: [Blitline via NPM:](https://github.com/blitline-dev/simple_blitline_node)
+- Javascript: [Blitline via Browser Javascript:](https://github.com/blitline-dev/simple_blitline_node)
+- Java: [Blitline via Java:](https://github.com/chrylis/blitline-java-client)
+- .NET: [Blitline.NET  (Community Maintained):](https://github.com/chrylis/blitline-java-client)
