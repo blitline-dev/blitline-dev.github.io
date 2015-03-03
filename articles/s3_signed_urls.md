@@ -7,11 +7,11 @@ layout: article
 
 <br/>
 
-AWS offers the ability to **sign** a url which means you can give us ONLY a url, and we are allowed to upload to that specific location in your bucket. [http://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html)
+AWS offers the ability to **sign** a url which means you can give us ONLY a url, and we are allowed to upload to that specific location in your bucket. [http://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html](http://docs.aws.amazon.com/AmazonS3/latest/dev/PresignedUrlUploadObject.html).
 
-<br/>
+<br/> 
 
-IF you use signed urls you do not need to set your Canonical ID, because we do not 
+The benefit of this is that you do not need to give Blitline any permissions to your buckets. The signed url contains all the information necessary.IF you use signed urls you also do not need to set your Canonical ID on Blitline.com, because we do not need it.
 
 <br/>
 
@@ -21,7 +21,9 @@ IF you use signed urls you do not need to set your Canonical ID, because we do n
 
 To use these signed urls with Blitline, the "signed_url" sits within an *s3_destination* like this:
 
+
 <br/>
+
 {% highlight json %}
 
 {
