@@ -53,6 +53,7 @@ The JSON returned will always have a **results** as the root node. Under results
 - **failed\_image\_identifiers** - In the event of an error, this node will contain an array of **image\_identifiers** that did NOT get processed.
 
 ---
+
 ### Successful Result Example:
 
 <br/>

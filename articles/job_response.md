@@ -3,7 +3,7 @@ title: "Blitline Job Response"
 layout: article
 ---
 
-###Response
+### Response
 
 When you submit a job to Blitline you will get a JSON response. If successful the response code will be 200 and you will receive json back, indicating that the job has been accepted, a job_id, and a final destination url of the "soon to be outputted" jobs
 
