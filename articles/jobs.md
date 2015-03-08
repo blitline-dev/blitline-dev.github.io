@@ -30,7 +30,7 @@ A job consists of 4 primary elements:
 
 ---
 
-There are many [more options](/articles/advanced_options.html) that can be added here, but these are the primary ones that should be added when submitting jobs.
+There are many [more options](/articles/job_options.html) that can be added here, but these are the primary ones that should be added when submitting jobs.
 
 ---
 So, the JSON to submit would look something like this:
