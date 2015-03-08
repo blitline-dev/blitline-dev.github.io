@@ -165,3 +165,10 @@ If that *difference_ratio* is less than 1.0 the images are effectively identical
 
 <br/>
 
+Additionally we offer MH pHash which will do a better job of identifying "near" images, but is more resource intensive for hamming distance calculations because it's a much larger hash. You can get the MH pHash be specifying 
+
+{% highlight text %}
+    "hash" : "phash_mh"
+{% endhighlight %}
+
+instead of dct.

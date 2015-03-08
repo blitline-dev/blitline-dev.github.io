@@ -61,6 +61,37 @@ layout: article
  
 <br/>
 
+### Kitchen Sink Example
+
+The following is the stereotypical job JSON for handling images uploaded via web from clients where you do no control filetypes (such as photos from phones and cameras)
+
+<br/>
+
+{% highlight json %}
+{
+    "application_id": "YOUR_APP_ID",
+    "src": "http://cdn.blitline.com/filters/boys.jpeg",
+    "src_data" : { "colorspace" : "srgb"},
+    "postback_url" : "http://YOUR_POSTBACK_URL",
+    "wait_retry_delay": 5,
+    "retry_postback" : true,
+    "get_exif" : true,
+    "v" : 1.20,
+    "functions": [
+        {
+            "name": "resize_to_fit",
+            "params": {
+                "width": 100,
+                "autosharpen": true
+            },
+            "save": {
+                "image_identifier": "MY_CLIENT_ID"
+            }
+        }
+    ]
+}
+{% endhighlight %}
+
 ### Example Project
 
 <br/>
