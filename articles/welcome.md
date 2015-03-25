@@ -73,7 +73,7 @@ You can see a prezi presentation describing Blitline workflow [here](http://prez
 
 <br/>
 
-Not many people would argue that S3 or Azure are probably the largest, fastest, best outfitted platforms for uploading images to. It is not reasonable to think that Blitline could reach a level of upload performance that these platforms have, so we have decided there is little need for us to try to compete in this space. The amount of hardware we would need to possess to handle 8,000,000 uploads/hr would be phenominal, yet S3 handles it without issue.
+Not many people would argue that S3 or Azure are probably the largest, fastest, best outfitted platforms for uploading images to. It is not reasonable to think that Blitline could reach a level of upload performance that these platforms have, so we have decided there is little need for us to try to compete in this space. The amount of hardware we would need to possess to handle 8,000,000 uploads/hr would be phenomenal, yet S3 handles it without issue.
 
 <br/>
 

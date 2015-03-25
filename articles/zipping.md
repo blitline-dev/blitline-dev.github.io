@@ -48,6 +48,6 @@ You will also need to set your **src_type** : "zip"
 
 <br/>
 
-Yes. That's a longer topic than can be convered here. Please write us if you are interested and we will tell you how.
+Yes. That's a longer topic than can be covered here. Please write us if you are interested and we will tell you how.
 
 

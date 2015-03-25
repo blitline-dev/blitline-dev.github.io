@@ -13,7 +13,7 @@ Bursting allows you to explode the PDF into all the individual pages and run the
 Here is what happens behind the scenes:
 
 - Blitline downloads the src pdf
-- Blitline breaks the PDF into individual pages, and uploads these pages to a temp storge location
+- Blitline breaks the PDF into individual pages, and uploads these pages to a temp storage location
 - Blitline automatically creates a new "job" copying over the functions and data you have specified in the "burst\_job", for each page of the PDF, automatically renaming the output files to have a "\_\_X" suffix (<span style="color:red">THAT IS 2 UNDERSCORES, NOT 1)</span>. Where X refers to page number.
 - Blitline will track the jobs and when they are all completed will issue a "postback" to your postback_url or put the item in the long polling cache.
 

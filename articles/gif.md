@@ -66,7 +66,7 @@ There are 3 operation we support for manipulating GIFs, you can find examples be
 
 ### Resize Gif to Fit
 
-Forces a GIF to fit the particular dimesions, resizing the largest side to fit within the specified "width" or "height" while maintaining aspect.
+Forces a GIF to fit the particular dimensions, resizing the largest side to fit within the specified "width" or "height" while maintaining aspect.
 
 {% highlight json %}
 {

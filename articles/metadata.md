@@ -9,7 +9,7 @@ Blitline can return and set various different types of metadata about images. Bl
 
 <br/>
 
-You can even chooose the get information about a file that Blitline hasn't downloaded yet. * In essence, we can 'peek' at a url and get the image information about it without downloading and processing the entire file. *
+You can even choose the get information about a file that Blitline hasn't downloaded yet. * In essence, we can 'peek' at a url and get the image information about it without downloading and processing the entire file. *
 
 <br/>
 
@@ -226,7 +226,7 @@ This will export metadata INTO the output file.
 
 <br/>
 
-While the above setting will read/export metadata, by default Blitline strips out metadata when saving a file. So, if you are interested in metadata,  it is often desireable to add:
+While the above setting will read/export metadata, by default Blitline strips out metadata when saving a file. So, if you are interested in metadata,  it is often desirable to add:
 
 <br/>
 

@@ -8,7 +8,7 @@ layout: article
 Identifying duplicate images is important for any company that handles uploaded images. If you are a social website or a commerce mobile app, you need to be able to identify duplicate images to help keep you site clean and functional. 
 <br/>
 
-It's not enough to simply look at filename or exif data. You want to identify if an image 'looks' like another image, and even if it's cropped or re-encoded to another image format,  to be able to identify it.
+It's not enough to simply look at filename or EXIF data. You want to identify if an image 'looks' like another image, and even if it's cropped or re-encoded to another image format,  to be able to identify it.
 <br/>
 
 To do this, companies use a process called 'perceptual hashing' or phash. This process breaks down visual elements of an image into effectively bit grid that looks something like this:
@@ -97,7 +97,7 @@ For the more complicated 2nd pass pHash, we provide a "phash_compare" function.
 
 <br/>
 
-This phash_compare job takes a "src" and a list of other images, and will return that list of images with a "likeness" value. If this value is below 4.0, they images are VERY similar. Duplicate images can even be rotated, cropped, or jpeg encoded multiple times and the phash raio will still identify them as being the same.
+This phash_compare job takes a "src" and a list of other images, and will return that list of images with a "likeness" value. If this value is below 4.0, they images are VERY similar. Duplicate images can even be rotated, cropped, or jpeg encoded multiple times and the phash ratio will still identify them as being the same.
 
 <br/>
 

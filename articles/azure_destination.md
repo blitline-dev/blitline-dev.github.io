@@ -68,7 +68,7 @@ Here is a full Blitline job example, including a sample "azure_destination":
 
 <br/>
 
-Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easier discernable from the SAS. To accomodate this, we have an additional modifier to the "azure\_destination" that allows you to set the output filetype without using an extension.
+Blitline uses file extensions to guess what file types are desired for output. Sometimes, though, these extensions do no exist or are not easier discernible from the SAS. To accommodate this, we have an additional modifier to the "azure\_destination" that allows you to set the output filetype without using an extension.
 
 <br/>
 

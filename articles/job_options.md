@@ -20,9 +20,9 @@ Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, *
 ### Specialized
 
 - **src\_type**(string) - Blitline can handle different sources besides images. It can screenshot a website for example. This identifies how to treat the "src" node. The options are as follows:
-  - **screen\_shot\_url**(string) - The "src" is a URL indentifying a webpage to take a screenshot of.
+  - **screen\_shot\_url**(string) - The "src" is a URL identifying a webpage to take a screenshot of.
   - **burst_pdf**(bool) - The "src" is a PDF and you wish to break out each of the pages into a separate job.
-- **src\_data**(string) - There may be additional metadata needed in the processing of the "src". This node allows for extra data to be indentified along with the "src".
+- **src\_data**(string) - There may be additional metadata needed in the processing of the "src". This node allows for extra data to be identified along with the "src".
   - **(For Images) colorspace**(string) - Sets the colorspace of the image upon loading. Options are "rgb" or "cmyk".
   - **(For Images) preserve_alpha**(bool) - If set to true will force PDF and TIFF images to preserve alpha channels. Otherwise they are deleted by default.
   - **(For Screenshots) viewport**(string) - Set the "viewport" (virtual browser size) for screenshot. Uses the format "WIDTHxHEIGHT" (e.g. "300x480")

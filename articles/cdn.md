@@ -3,7 +3,7 @@ title: "CDN"
 layout: article
 ---
 
-Many people ask about CDN support. Most modern cloud providers allow you to do this YOURSELF for pennies. There is little reason for Blitline to act as a middle-man and charge your for something that is so simple to implement using your own current provider. This is the explaination on how to do it yourself on S3.
+Many people ask about CDN support. Most modern cloud providers allow you to do this YOURSELF for pennies. There is little reason for Blitline to act as a middle-man and charge your for something that is so simple to implement using your own current provider. This is the explanation on how to do it yourself on S3.
 
 <br/>
 
