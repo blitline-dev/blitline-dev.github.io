@@ -191,7 +191,7 @@ You can choose to have Blitline return you the Hu image moments for an image. Th
 
 <br/>
 
-If you run the following example of Blitline's [Gist Runner](http://www.blitline.com/docs/gist_runner?gist_id=71179132d346db524da6), you will see that the outputted images have 42 floating point hashes associated with them. You can then plug these values into the algorithm, for example:
+If you run this [example](http://www.blitline.com/docs/gist_runner?gist_id=71179132d346db524da6) of Blitline's Gist Runner, you will see that the outputted images have 42 floating point hashes associated with them. You can then plug these values into the algorithm, for example:
 
 <br/>
 
