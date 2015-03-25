@@ -172,3 +172,55 @@ Additionally we offer MH pHash which will do a better job of identifying "near" 
 {% endhighlight %}
 
 instead of dct.
+
+<br/>
+
+### Rolling Your Own
+
+<br/>
+
+Additionally, you can choose to calculate a very precise measure of "duplicity" yourself. Using an [image moment variant](http://www.fmwconcepts.com/misc_tests/perceptual_hash_test_results_510/), you can calculate the duplicity of images with a strong precision, even if they have been modified (rotated, scaled, re-formatted, etc.)
+
+<br/>
+
+You can choose to have Blitline return you the Hu image moments for an image. These contain 42 floating point values. You can then calculate the "similarity" of images by using the following algorithm.
+
+<br/>
+
+<div style="font-family: helvetical; font-size: 34px;">&Sigma; (&#124;i<sub>1</sub>&#124; - &#124;i<sub>2</sub>&#124;)<sup>2</sup></div>
+
+<br/>
+
+If you run the following example of Blitline's [Gist Runner](http://www.blitline.com/docs/gist_runner?gist_id=71179132d346db524da6), you will see that the outputted images have 42 floating point hashes associated with them. You can then plug these values into the algorithm, for example:
+
+<br/>
+
+*RUBY*
+
+{% highlight ruby %}
+
+image_to_hash_1 = [0.6223,-0.1812,2.808,0.3551,3.355,0.6169,3.87,1.948,8.153,3.238,5.276,2.149,7.493,3.971,0.4922,0.4294,2.218,2.376,2.834,2.876,3.228,3.159,6.261,6.23,5.08,4.515,7.269,6.502,0.1936,0.5109,1.319,2.394,2.449,2.967,1.514,3.349,3.879,6.524,2.226,4.883,3.537,7.064]
+
+image_to_hash_2 = [0.622,-0.1824,2.811,0.3219,3.355,0.5803,3.868,2.346,8.147,3.826,5.275,2.604,7.49,4.373,0.4921,0.4282,2.221,2.378,2.835,2.863,3.228,3.149,6.262,6.207,5.073,4.507,7.297,6.489,0.1943,0.5109,1.326,2.397,2.446,2.968,1.524,3.349,3.89,6.525,2.24,4.882,3.55,7.061]
+
+sum = 0
+
+# Calculate sum of the squared diff of the absolute values.
+0.upto(41) do |i|
+    v1 = image_to_hash_1[i].abs
+    v2 = image_to_hash_2[i].abs
+    square_diff = (v1-v2) ** 2
+    sum = sum + square_diff
+end
+
+p sum
+
+{% endhighlight %}
+
+<br/>
+
+If this sum is sufficiently small (typicall less than 1.0), the images are probably duplicates.
+
+<br/>
+
+Note: Obviously, this is a *HEAVY* computational burden and difficult to do "on-the-fly" via SQL function or code based. This is why there is typically a "lighter weight" first pass of using a *dct* or *mh* hash to identify "probable" matches, and then this heavier one can by done on the reduced set of "probable" images.
