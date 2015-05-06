@@ -38,7 +38,6 @@ Bltiline supports the following formats:
 - dicom
 - cr2
 - dcm
-- dwg
 
 <br/>
 
