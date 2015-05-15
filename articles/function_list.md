@@ -260,12 +260,18 @@ Required:
 
 Optional:
 
+
+- 
 - **x** : X offset (defaults to 0)
 - **y** : Y offset (defaults to 0)
 - **width** : Width of text area, either in pixels or percentage (ie. '90%')
 - **height** : Height of text area, either in pixels or percentage (ie. '90%')
 - **color** : Color of text (defaults to '#ffffff')
+- **style** : "normal" or "italic" or "oblique" (defaults to "normal")
+- **kerning** : Distance between letters (defaults based on font)
+- **font_weight** : "bold" or "normal" (defaults to "bold")
 - **font_family** : Font of text (defaults to 'Helvetica') <br>Need an Open Source font added? Write us at support@blitline.com
+- **stretch** : Stretch value ("normal"/"expanded"/"xondensed")
 - **point_size** : Size of text
 - **gravity** :  Placement of text (defaults to 'CenterGravity')
 
