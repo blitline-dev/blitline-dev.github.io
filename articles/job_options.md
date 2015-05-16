@@ -12,6 +12,7 @@ Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, *
 - **postback_url**(string) - This indicates the URL that Blitline will call back once the job has completed. (Think of it as the webhook that gets called when this job completes).
 - **extended_metadata**(bool) - This will cause the postback to contain all the metadata (including EXIF) associated with the image. Blitline automatically strips out EXIF metadata in output images
 - **postback\_headers**(dictionary) - These are headers that Blitline will add to the postback when the postback_url is called.
+- **get_exif** - Returns the full exif data from the "src" file.
 - **wait\_retry\_delay**(int) - If Blitline is unable to download the "src" image, this value indicates how long (in seconds) Blitline will wait before retrying. If this value is missing, Blitline will _not_ retry downloading and, fail immediately.
 - **pre_process**(dictionary) - Defines actions to take before processing this job. Scope is too big to discuss here, please [read more here](/preprocess)
 
