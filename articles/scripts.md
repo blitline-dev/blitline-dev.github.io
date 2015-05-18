@@ -98,7 +98,7 @@ Notice we've taken the script, and turned it into a single string (with \n as th
 
 <br/>
 
-See it run HERE!
+See it run [HERE!](http://www.blitline.com/docs/gist_runner?gist_id=7573157)
 
 <br/>
 
