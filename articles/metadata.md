@@ -190,6 +190,7 @@ For example:
                     "Title": "title",
                     "Keywords": "key,word,here",
                     "DateCreated": "20141010",
+                    "Description" : "My Caption/Description",
                     "ByLine": "by_line",
                     "Author": "author",
                     "Province-State": "provincestate",
@@ -205,7 +206,6 @@ For example:
                     "Credit": "credit",
                     "CopyrightNotice": "copyrightNotice",
                     "Copyright" : "_copyright",
-                    "Caption": "caption",
                     "UsageTerms" : "myusageterms",
                     "Caption-Abstract" : "my sample abstract",
                     "CaptionWriter": "_captionwriter"
