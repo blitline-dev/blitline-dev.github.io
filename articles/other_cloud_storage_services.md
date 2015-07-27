@@ -86,6 +86,9 @@ The output URL can then be used in the Blitline JSON via the **signed_destinatio
 
 {% endhighlight %}
 
+### Important Note:
+
+Multipage files such as PDF's will NOT work with signed urls unless your service provider allows the signing of wildcard values. This is because when Blitline outputs images from filetypes that have multiple pages, the output file has the page number appended to the end of it. Many signed url providers DO NOT allow wildcard destinations, such as **/blitline-test/foo\*.jpg**, so Blitline is unable to upload the results of multipage files.
 
 
 
