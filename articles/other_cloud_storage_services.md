@@ -38,9 +38,9 @@ To use these signed urls with Blitline, the *signed_url* sits within an *signed_
 
 Remember: If you signed a url with headers, you must include those same headers in the *signed_destination*
 
-### Google Example:
-
 <br/>
+
+### Google Example:
 
 Google provides numerous SDK's and a command line utility for signing URLs. The command line tool is the easiest to test and demonstrate with. The command line tool is named **gsutil** You can find the official documentation here: 
 
@@ -49,6 +49,7 @@ https://cloud.google.com/storage/docs/gsutil
 <br/>
 
 This particular command line tool has the ability to sign urls for uploading. You can read more about gsutil signing here: 
+
 
 https://cloud.google.com/storage/docs/gsutil/commands/signurl
 
