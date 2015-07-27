@@ -21,7 +21,6 @@ The benefit of this is that you do not need to give Blitline any permissions to 
 
 To use these signed urls with Blitline, the "signed_url" sits within an *signed_destination* like this:
 
-
 <br/>
 
 {% highlight json %}
@@ -38,4 +37,8 @@ To use these signed urls with Blitline, the "signed_url" sits within an *signed_
 {% endhighlight %}
 
 Remember: If you signed a url with headers, you must include those same headers in the *signed_destination*
+
+## Google Example:
+
+
 
