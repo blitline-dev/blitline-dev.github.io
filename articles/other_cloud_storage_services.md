@@ -40,7 +40,7 @@ Remember: If you signed a url with headers, you must include those same headers 
 
 <br/>
 
-### Google Example:
+### Google Example
 
 Google provides numerous SDK's and a command line utility for signing URLs. The command line tool is the easiest to test and demonstrate with. The command line tool is named **gsutil** You can find the official documentation here: 
 
@@ -86,7 +86,7 @@ The output URL can then be used in the Blitline JSON via the **signed_destinatio
 
 {% endhighlight %}
 
-### Important Note:
+### Important Note
 
 Multipage files such as PDF's will NOT work with signed urls unless your service provider allows the signing of wildcard values. This is because when Blitline outputs images from filetypes that have multiple pages, the output file has the page number appended to the end of it. Many signed url providers DO NOT allow wildcard destinations, such as **/blitline-test/foo\*.jpg**, so Blitline is unable to upload the results of multipage files.
 
