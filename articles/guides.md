@@ -21,7 +21,7 @@ Outputting:
 - [S3 Destination](/articles/s3_destination.html)
 - [Azure Destination](/articles/azure_destination.html)
 - [FTP Destination](/articles/ftp.html)
-- [Other Cloud Destinations](/articles/other_cloud_storage_services.html)
+- [**NEW!** Other Cloud Destinations](/articles/other_cloud_storage_services.html)
 
 Advanced:
 
