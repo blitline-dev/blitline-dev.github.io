@@ -5,7 +5,7 @@ layout: article
 
 ### Animated GIFs
 
-Gif images are a different beast than regular images. They are encapsulated "programs" which run and animate an image. They cannot simply be "cropped" down to a new size because each from must be "cropped". Often times, GIFs are even **smart** enough to compress themselves so that only parts of the image are animated to make them smaller.
+Gif images are a different beast than regular images. They are encapsulated "programs" which run and animate an image. They cannot simply be "cropped" down to a new size because each frame must be "cropped". Often times, GIFs are even **smart** enough to compress themselves so that only parts of the image are animated to make them smaller.
 
 As such, they do not fit into the regular flow of Blitline. They must be handled specially, or they will just be output as static single files (usually the first image in the GIF).
 
