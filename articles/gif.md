@@ -5,13 +5,21 @@ layout: article
 
 ### Animated GIFs
 
+<br>
 Gif images are a different beast than regular images. They are encapsulated "programs" which run and animate an image. They cannot simply be "cropped" down to a new size because each frame must be "cropped". Often times, GIFs are even **smart** enough to compress themselves so that only parts of the image are animated to make them smaller.
 
+<br>
 As such, they do not fit into the regular flow of Blitline. They must be handled specially, or they will just be output as static single files (usually the first image in the GIF).
+
+<br>
 
 Animated GIFs must be specified with a "src_type" : "gif", and the function that operates on the gif must be specified in the "src_data" element:
 
+<br>
+
 For example:
+
+<br>
 
 {% highlight json %}
 {
