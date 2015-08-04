@@ -13,7 +13,7 @@ As such, they do not fit into the regular flow of Blitline. They must be handled
 
 <br>
 
-Animated GIFs must be specified with a "src_type" : "gif", and the function that operates on the gif must be specified in the "src_data" element:
+Animated GIFs must be specified with a "src_type" : "gif", and the function that operates on the gif must be specified in the **"src_data"** element:
 
 <br>
 
