@@ -61,9 +61,9 @@ You simple add "smart_image" as the "data_type" in your JSON:
 <br/>
 
 #### Turn scripts (or text) into images
-![](https://s3.amazonaws.com/img.blitline/blog/smart_image/script_example.jpg)
+![](https://s3.amazonaws.com/img.blitline/blog/smart_image/script_output.png)
 
-<small>_https://s3.amazonaws.com/blitdoc/scripts/page_curl.sh_</small>
+<small>_https://raw.githubusercontent.com/blitline-dev/bconvert/master/bconvert_</small>
 
 <br/>
 
@@ -72,6 +72,7 @@ You simple add "smart_image" as the "data_type" in your JSON:
 
 <small>_http://www.stackoverflow.com_</small>
 
+<br/>
 
 #### If we can't rasterize it...
 ![](https://s3.amazonaws.com/img.blitline/blog/smart_image/default.jpg)
