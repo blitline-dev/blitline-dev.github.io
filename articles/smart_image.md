@@ -15,7 +15,7 @@ Smart Image functionality attempt to unify all these different sources and outpu
 
 <br />
 
-Smart Image works similarly to "icons" in an OS, identifying file types and generating a useful thumbnail for them. Smart Image will ALWAYS return an image, even if it's a default image.
+Smart Image works similarly to "icons" in an OS, identifying file types and generating a useful thumbnail for them. Smart Image should ALWAYS return an image (assuming there is a valid src file), even if it's a default image.
 
 ### How do I use it?
 
@@ -64,6 +64,14 @@ You simple add "smart_image" as the "data_type" in your JSON:
 ![](https://s3.amazonaws.com/img.blitline/blog/smart_image/script_output.png)
 
 <small>_https://raw.githubusercontent.com/blitline-dev/bconvert/master/bconvert_</small>
+
+<br/>
+
+#### Office Docs
+
+![](https://s3.amazonaws.com/img.blitline/blog/smart_image/office_doc.png)
+
+<small>_https://s3.amazonaws.com/blitdoc/docx/Document+2.docx_</small>
 
 <br/>
 

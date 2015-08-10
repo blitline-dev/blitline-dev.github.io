@@ -11,6 +11,7 @@ layout: article
 ?gist_id=3765044)	This is the canonical use of Blitline. Taking an online image and thumbnailing to a smaller size.
 - [**File Extension Override:**](http://www.blitline.com/docs/gist_runner
 ?gist_id=3154014)If you are unhappy with the default .jpg extension (or .png) that Blitline defaults to, you can explicitly set what the outputted filename is.
+- [**Smart Image:**](http://www.blitline.com//docs/gist_runner?gist_id=9815ed4c3c98725c8032) Blitline will try to determine filetype based on source and generate an image for you automatically based on reasonable defaults.
 - [**PNG32 to PNG8:**](http://www.blitline.com/docs/gist_runner
 ?gist_id=3831368)	If you are saving out PNG files, you can convert them from 32bit to 8bit, preserving the transparency and reducing the file size DRAMATICALLY. In this example, file size is cut by 50% without a noticeable drop in quality
 - [**Performing Multiple Scale Functions on Single Source:**](http://www.blitline.com/docs/gist_runner
