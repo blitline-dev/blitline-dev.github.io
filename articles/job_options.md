@@ -37,4 +37,4 @@ Aside from the standard 4 items in a job (**application\_id**, **src**, **v**, *
 - **suppress\_auto\_orient**(bool) -  Blitline automatically orients the images to their proper orientation, if you wish to SUPPRESS this feature, you can do it by setting this to TRUE.
 - **hash**(string) - Causes the metadata about the original to return with a hash. The possible values are "md5", "crc32","sha256", "phash_dct", or "phash_mh".
 - **include\_iptc**(bool) -  Blitline will return all the metadata associated with the IPTC fields embedded in the image.
-- **wait\_for\_s3**(bool) -  When set to __true__ will poll S3 to make sure the image is available before issuing the postback to your postback_url. Note: It will only wait a maximum of 10 seconds before it will issue the postback regardless of whether the image is available or not.
+- **wait\_for\_s3**(bool) -  (DEPRECATED 9/2015) This option is no longer necessary. In the old days, S3 used to not be read-after-write consistent, which would mean you would have to 'wait' a while after uploading something to be able to view/user it online. AWS has updated and S3 objects are now immediately avialable.
