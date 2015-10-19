@@ -9,7 +9,7 @@ Better Portable Graphics (BPG) is a file format for coding digital images, which
 
 While there is not yet built-in native support for BPG in any mainstream browsers, websites can still use BPG images in all browsers by including a 56KB (after gzipping) JavaScript library made by Bellard.
 
-##### TLDR;
+#### TLDR;
 
 This means you can have better quality images at a lower download size, BUT to display them you need to include a special javascript file in your webpage. This javascript is pretty larger, but once cached locally will not need to be re-downloaded.
 
@@ -27,19 +27,9 @@ We have run a series of comparisons on various source images and found that BPG 
 
 <br/>
 
-[JPG Output](http://www.blitline.com/docs/gist_runner?gist_id=3cf4e4a3c65fb99cafbb) (70.4k) vs [BPG Output](http://www.blitline.com/docs/gist_runner?gist_id=7832f48e4a2cf86b9d7a) (34.5k)
+[JPG vs BPG] (http://www.blitline.com/docs/gist_runner?gist_id=56f4d218a22c7d1cfffd) This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
 
-<br/>
-
-But there ARE instances where the BPG actually is larger:
-
-<br/>
-
-[JPG Output](http://www.blitline.com/docs/gist_runner?gist_id=d4045e955cbe9a956369) (76k) vs [BPG Output](http://www.blitline.com/docs/gist_runner?gist_id=02a269a9639f9e9fa63c) (410k)
-
-#### Why did this happen?
-
-It appears that when the original images as already JPG compressed and smallish (under 2MB ish), running that image through BPG compressing CAN result in a larger image. This makes sense since and already compressed image would have a bunch of artifacts in it which would be harder to re-encode.
+**NOTE:** The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
 
 
 
