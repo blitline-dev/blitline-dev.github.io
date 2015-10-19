@@ -31,11 +31,12 @@ We have run a series of comparisons on various source images and found that BPG 
 
 <br/>
 
-This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
+This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesizes.
 
 <br/>
 
-**NOTE:** The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
-
+### Notes:
+- The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
+- The default javascript file to display static files, bpgdec8.js, **DOESN'T** play well with jquery, with 90% of the internet uses. We have a version of bpgdec8.js that DOES work with jquery here: [JQuery Friendly bpgdec8.js](http://cdn.blitline.com/javascripts/bpgdec8.js). Please download this js and host it yourself (it is possible that it will move from this location in the future).
 
 
