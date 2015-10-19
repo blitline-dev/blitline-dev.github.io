@@ -30,7 +30,8 @@ Advanced:
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
 - [Advanced Image Processing](/articles/advanced_processing.html)
 - [Formats](/articles/formats.html)
-
+- [**NEW!** BPGs](/articles/bpg.html)
+ 
 Specialized Processing:
 
 - [**NEW!** Smart Image](/articles/smart_image.html)
