@@ -36,6 +36,9 @@ This example you can try out yourself with your own images, just replace the "sr
 <br/>
 
 ### Notes:
+
+<br/>
+
 - The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
 - The default javascript file to display static files, bpgdec8.js, **DOESN'T** play well with jquery, with 90% of the internet uses. We have a version of bpgdec8.js that DOES work with jquery here: [JQuery Friendly bpgdec8.js](http://cdn.blitline.com/javascripts/bpgdec8.js). Please download this js and host it yourself (it is possible that it will move from this location in the future).
 
