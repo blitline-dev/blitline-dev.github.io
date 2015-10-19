@@ -27,7 +27,9 @@ We have run a series of comparisons on various source images and found that BPG 
 
 <br/>
 
-[JPG vs BPG] (http://www.blitline.com/docs/gist_runner?gist_id=56f4d218a22c7d1cfffd) This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
+[JPG vs BPG](http://www.blitline.com/docs/gist_runner?gist_id=56f4d218a22c7d1cfffd) This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
+
+<br/>
 
 **NOTE:** The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
 
