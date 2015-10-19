@@ -9,7 +9,7 @@ Better Portable Graphics (BPG) is a file format for coding digital images, which
 
 While there is not yet built-in native support for BPG in any mainstream browsers, websites can still use BPG images in all browsers by including a 56KB (after gzipping) JavaScript library made by Bellard.
 
-#### TLDR;
+-- **TLDR;**
 
 This means you can have better quality images at a lower download size, BUT to display them you need to include a special javascript file in your webpage. This javascript is pretty larger, but once cached locally will not need to be re-downloaded.
 
@@ -27,7 +27,11 @@ We have run a series of comparisons on various source images and found that BPG 
 
 <br/>
 
-[JPG vs BPG](http://www.blitline.com/docs/gist_runner?gist_id=56f4d218a22c7d1cfffd) This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
+[JPG vs BPG](http://www.blitline.com/docs/gist_runner?gist_id=56f4d218a22c7d1cfffd) 
+
+<br/>
+
+This example you can try out yourself with your own images, just replace the "src" url with your own image, and you can view the output filesize at the bottom of the page.
 
 <br/>
 
