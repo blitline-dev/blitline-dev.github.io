@@ -41,5 +41,8 @@ This example you can try out yourself with your own images, just replace the "sr
 
 - The "quality" on BPG files differs from traditional JPG "quality". For JPGs, quality is between 1-100 with 100 being **best**. With BPGs, the quality is between 0-51 with 0 being **best**.
 - The default javascript file to display static files, bpgdec8.js, **DOESN'T** play well with jquery, with 90% of the internet uses. We have a version of bpgdec8.js that DOES work with jquery here: [JQuery Friendly bpgdec8.js](http://cdn.blitline.com/javascripts/bpgdec8.js). Please download this js and host it yourself (it is possible that it will move from this location in the future).
+- Currently, Blitline only supports **output** BPGs, not input. So you cannot "load" a BPG file using blitline.
+- Currently, Blitline only supports static image outputs for BPGs. Animated BPGs are not a supported output.
+
 
 
