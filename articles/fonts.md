@@ -19,503 +19,755 @@ Here is a list of the installed fonts:
 
 <br/>
 
-- **AvantGarde**
-- **Bookman**
-- **Courier**
-- **Helvetica**
-- **Helvetica Narrow**
-- **NewCenturySchlbk**
-- **Palatino**
-- **Symbol**
-- **Times**
-- **Abject Failure**
-- **Adine Kirnberg**
-- **Adine Kirnberg Alternate**
-- **AerojonesNF**
-- **Airstream NF**
-- **Alex Brush**
-- **Aller**
-- **Aller Display**
-- **Aller Light**
-- **Oswald**
-- **Allura**
-- **Alpenstube**
-- **Alpine**
-- **Alte Caps**
-- **Amatic**
-- **Amatic SC**
-- **Ambrosia**
-- **American Text**
-- **AmsterdamTangram**
-- **Anagram NF**
-- **Andale Mono**
-- **Aneirin**
-- **Angelou**
-- **AnglicanText**
-- **Arabella**
-- **ArbuckleFat**
-- **Argos George**
-- **Argos George Contour**
-- **Arial**
-- **Arial Black**
-- **Arizonia**
-- **Atlantis Found**
-- **Azteka**
-- **Backstage Pass NF**
-- **Bala Cynwyd NF**
-- **Bebas**
-- **Becker**
-- **Becker Inline**
-- **Becker Shadow**
-- **Bellhop NF**
-- **Belshaw**
-- **Benjamin Franklin**
-- **Bete Noir NF**
-- **Big Book**
-- **Billboard College**
-- **Billboard Shadow**
-- **Bittersweet NF**
-- **BlackJack**
-- **Blackletter**
-- **Blackletter Shadow**
-- **Blackwood Castle**
-- **Blackwood Castle Shadow**
-- **Blocked Artistry**
-- **Brazilia**
-- **Breaking News**
-- **Brian James**
-- **Brian James Contour**
-- **Brock Script**
-- **Cabaret**
-- **Cabaret Contour**
-- **Cabaret Shadow**
-- **CAC Champagne**
-- **Calamity Jane NF**
-- **Camp Fire**
-- **Cantarell**
-- **Cantebriggia**
-- **Canterbury**
-- **Capture it**
-- **Capture it 2**
-- **Cardiff**
-- **Cavalier**
-- **Caviar Dreams**
-- **Celtic Hand**
-- **Chanticleer Roman NF**
-- **Chelsea**
-- **ChiTown NF**
-- **Chicken Script**
-- **ChipperfieldandBailey**
-- **Chippewa Falls NF**
-- **Chock A Block NF**
-- **ChocolateBoxDecorative**
-- **Chocolate Drops NF**
-- **ChunkFive**
-- **Circuit Bored NF**
-- **Circus Ornate**
-- **Claritty**
-- **Clerica**
-- **Coaster**
-- **CoasterPoster**
-- **Colaborate-Bold**
-- **ColaborateLight**
-- **Colaborate-Medium**
-- **Colaborate-Regular**
-- **Colaborate-Thin**
-- **Coltaine No 2**
-- **Comic Sans MS**
-- **Comic XT**
-- **Conga Line NF**
-- **Copasetic NF**
-- **Copper Canyon WBW**
-- **Courier New**
-- **Coventry Garden**
-- **Coventry Garden NF**
-- **Creampuff**
-- **CuppaJoe**
-- **Daddy Longlegs NF**
-- **Dampfplatz**
-- **Dampfplatz Shadow**
-- **Dampfplatz Solid**
-- **Dancing Donuts NF**
-- **Dancing Script OT**
-- **Daniel**
-- **Day Poster Black NF**
-- **DejaVu Sans**
-- **DejaVu Sans Mono**
-- **DejaVu Serif**
-- **De Stencil NF**
-- **Devinne Swash**
-- **Devinne Swash Shadow**
-- **Digitrax**
-- **Ding Dong Daddyo NF**
-- **Direction**
-- **Distressed Out**
-- **Dobkin Script**
-- **Dos Equis NF**
-- **Dover**
-- **Dover Contour**
-- **Dover Heights**
-- **Dover Shadow**
-- **Draughtsman**
-- **DriveThru NF**
-- **Droid Sans**
-- **Drumag Studio NF**
-- **DS Fatty Contour**
-- **DS Fatty Shadow**
-- **DS Fette Gotisch**
-- **dSpenser**
-- **dSpenserBlack**
-- **Dubba Dubba NF**
-- **Due Date**
-- **Dundalk**
-- **DundalkEmbossed**
-- **DundalkHandDrawn**
-- **Dusty Rose NF**
-- **Duvall**
-- **DuvallOutline**
-- **DuvallSmallCaps**
-- **DuvallSmallCapsOutline**
-- **DymaxionScript**
-- **EmbossedBlack**
-- **EmbossedGermanica**
-- **EmporiumCapitals**
-- **English Towne**
-- **EngravierInitials**
-- **Erasmus**
-- **ErasmusInline**
-- **Eredel**
-- **Estelle**
-- **Existence**
-- **Exo**
-- **Express**
-- **Facets NF**
-- **Fancy Pants NF**
-- **Faranvale**
-- **Fargo Faro NF**
-- **FashionVictim**
-- **Festival**
-- **FestivalFlourish**
-- **Fete Accompli NF**
-- **FetteEgyptienne**
-- **Flaemische Kanzleischrift**
-- **FloranaInitials**
-- **FlutedGermanica**
-- **Forelle**
-- **Frangelica**
-- **FreamePlain**
-- **FullTilt Boogie NF**
-- **Funky Rundkopf NF**
-- **Gabrielle**
-- **Ganz Grobe Gotisch**
-- **Garavol**
-- **Garidelli**
-- **Genzsch Et Heyse**
-- **Genzsch Et Heyse Alternate**
-- **Georgia**
-- **Ginger Peachy NF**
-- **Glastonbury**
-- **Glastonbury Shadow**
-- **GoodDog**
-- **Grado Gradoo NF**
-- **Gramophone NF**
-- **Gramophone Shaded NF**
-- **Grand Hotel**
-- **Grantham**
-- **GranthamOutline**
-- **GranthamShadow**
-- **Graphis**
-- **Grasshopper**
-- **Great Vibes**
-- **Great Lakes Shadow NF**
-- **Grenadier NF**
-- **Grinder**
-- **Grunge Face**
-- **Guinness Extra Stout NF**
-- **Gulfstream NF**
-- **Hackles**
-- **Hamburger Heaven NF**
-- **Handskrib**
-- **Heavy Tripp NF**
-- **Helena**
-- **HelenaOutline**
-- **HelenaSquat**
-- **Hemmerhaus**
-- **HenryMorganHand**
-- **HentzauInitials**
-- **Herald Square NF**
-- **Herald Square Two NF**
-- **Hercules**
-- **High Five Jive NF**
-- **High Five NF**
-- **Hobby Horse NF**
-- **Holy Ravioli NF**
-- **Hominis**
-- **Honduro**
-- **Honey Script**
-- **Hornswoggled NF**
-- **Impact**
-- **Imperator**
-- **ImperatorBronze**
-- **IncisedBlack**
-- **IncisedBlackWide**
-- **Indochine NF**
-- **Indubitably NF**
-- **Infula**
-- **Ironick NF**
-- **Jacobi**
-- **JacobiStriped**
-- **Jeepers**
-- **Joost A Millionaire NF**
-- **Journal**
-- **Junebug Stomp NF**
-- **Jungle Fever Inline NF**
-- **Jungle Fever NF**
-- **Karnevale**
-- **Kaushan Script**
-- **Kefario**
-- **Kelmscott Roman NF**
-- **Kerfuffle NF**
-- **Kildor**
-- **Killigrew**
-- **KilligrewStacatto**
-- **Kindertype**
-- **Kirkingham**
-- **Kismet NF**
-- **Koloss**
-- **Koloss Contour**
-- **Kurvaceous NF**
-- **Labyrinth NF**
-- **Lackawanna Weed NF**
-- **Laconick-NormalA**
-- **LaffRiotNF**
-- **Lagniappe Inline NF**
-- **Lakeshore Drive NF**
-- **Lake Wobegon NF**
-- **Landsdowne**
-- **Landsdowne Shadowed**
-- **Lato**
-- **Laurendra**
-- **League Gothic**
-- **Learning Curve Dashed Pro**
-- **Learning Curve Pro**
-- **Lewisham**
-- **LewishamDropCaps**
-- **LewishamShadowed**
-- **LewishamShadowII**
-- **LewishamStripe**
-- **Lightfoot**
-- **Lightfoot Fluted**
-- **Lightfoot Outline**
-- **Lightfoot Shadowed**
-- **Lighthaus**
-- **Lintsec**
-- **Little Deuce Coupe NF**
-- **Little Lord Fontleroy NF**
-- **LittleRickeyNF**
-- **Lobster 1.3**
-- **Lobster Two**
-- **Logger**
-- **Long Island Antiqua**
-- **Long Island Contour**
-- **Long Island Shadow**
-- **LostWages**
-- **Louvaine**
-- **Luncheonette NF**
-- **Madison Square NF**
-- **Magic Lantern NF**
-- **Mangage**
-- **March Madness NF**
-- **Marker Art**
-- **Marketing Script**
-- **Marketing Script Inline**
-- **Marketing Script Shadow**
-- **Materhorn NF**
-- **Mediaeval Caps**
-- **Merri Gables**
-- **Metropolis NF**
-- **Metro Retro NF**
-- **Middle Earth NF**
-- **Midland Rail NF**
-- **Midland Rail Shadow NF**
-- **Milton Burlesque NF**
-- **Minstrel Poster NF**
-- **Minstrel Poster Two NF**
-- **Modern Typography NF**
-- **Mondo Redondo NF**
-- **Monicas Salon NF**
-- **Monicas Salon Shadow NF**
-- **Monkey Business NF**
-- **Monkey Fingers NF**
-- **Montague**
-- **Monterey Popsicle NF**
-- **Morgan**
-- **Morgan Twenty Nine**
-- **Muchaka**
-- **Munchausen NF**
-- **My Fault**
-- **My Gal Swoopy NF**
-- **My Type**
-- **Namesake NF**
-- **Neptune 8**
-- **Newchester**
-- **Nickelodeon NF**
-- **Nickerbocker NF**
-- **Nickley NF**
-- **Nickodemus-Extremus**
-- **Night At The Opera NF**
-- **Nip And Tuck NF**
-- **North Face**
-- **Not Mary Kate NF**
-- **Nubian**
-- **Nubian Shadow**
-- **Nuggles**
-- **Olde English**
-- **Old English Five**
-- **Old Gate Lane NF**
-- **OldgateLaneOutline**
-- **Open Sans**
-- **Orion Radio NF**
-- **Oswald Stencil**
-- **Our Gang NF**
-- **Owah Tagu Siam NF**
-- **Pacifico**
-- **Packard Antique**
-- **Packard Clipper NF**
-- **Park Lane NF**
-- **Pastiche NF**
-- **Payzant Pen NF**
-- **Penelope**
-- **Perisphere**
-- **Persippiny**
-- **Phatt Phreddy NF**
-- **Pilsen Plakat**
-- **Pinball Whiz NF**
-- **Platonick NF**
-- **Pleasingly Plump NF**
-- **Plug Nickel NF**
-- **Points West NF**
-- **Polo**
-- **PonsonbyNF**
-- **Popular Cafe NF**
-- **Prince Valiant**
-- **PT Sans**
-- **PT Sans Caption**
-- **PT Sans Narrow**
-- **Public Enemy NF**
-- **Pyriform Tones NF**
-- **Quicksand**
-- **QuigleyWiggly**
-- **Raconteur NF**
-- **Radio Days NF**
-- **Radio Ranch NF**
-- **Ragg Mopp NF**
-- **Raleway**
-- **Raskalnikov NF**
-- **Red October NF**
-- **Reynold**
-- **Reynold Art Deco**
-- **RhubarbPie**
-- **Rialto NF**
-- **Ricks American NF**
-- **Riot Squad NF**
-- **RitzyNormal**
-- **RitzyRemixNF**
-- **Rivanna NF**
-- **Roboto**
-- **Roboto Condensed**
-- **Rockmaker**
-- **RollerCoaster**
-- **Rolling No One**
-- **Roman Antique**
-- **Runy Tunes Revisited NF**
-- **Rx Script**
-- **Saddlebag**
-- **Sail**
-- **Sansation**
-- **Sansation Light**
-- **Sans Plate Caps**
-- **Sarsaparilla NF**
-- **Schampel**
-- **SeasideResortNF**
-- **Selznick Remix NF**
-- **Sesquipedalian NF**
-- **Shall We Gdansk NF**
-- **Shiner Block**
-- **Shinzen Stroke**
-- **ShoCard Caps NF**
-- **Sid The Kid NF**
-- **Skater Park**
-- **Skittles n Beer NF**
-- **Slabtag**
-- **Slugfest NF**
-- **Smart Frocks NF**
-- **Smorgasbord NF**
-- **Snappy Service NF**
-- **Sofia**
-- **Sonoma Script**
-- **Souci Sans NF**
-- **Source Sans Pro**
-- **Space Cadet NF**
-- **SpacePatrol**
-- **Speedball No1 NF**
-- **Speedball No 2 NF**
-- **Speedball No 3 NF**
-- **Spondulix NF**
-- **Standing Room Only NF**
-- **Stony Island NF**
-- **Studebaker NF**
-- **Student Commons**
-- **Tangerine**
-- **Tanglewood Tales NF**
-- **Tara Bulbous NF**
-- **Team Spirit NF**
-- **Terrazan**
-- **Terribo**
-- **TestarossaNF**
-- **Thames Nude Roman**
-- **Times New Roman**
-- **Titanick Display NF**
-- **Titillium**
-- **Tobacco Road NF**
-- **Tobago Poster**
-- **Tobago Poster Alternate**
-- **Tooney Noodle NF**
-- **Topic**
-- **Topic Alternates**
-- **Toyland NF**
-- **Trading Post NF**
-- **Trebuchet MS**
-- **Tribeca**
-- **Trocadero**
-- **Troglodyte NF**
-- **Tropicana NF**
-- **Tucson Two Step NF**
-- **Underground NF**
-- **Unicorn**
-- **Uppen Arms NF**
-- **Vacation Postcard NF**
-- **Valley Grrrl NF**
-- **Ventura**
-- **Ventura Inline**
-- **Verdana**
-- **Viking**
-- **Vinnie BoomBah NF**
-- **Vivian**
-- **Walkway Black**
-- **Walkway Bold**
-- **Walkway Oblique**
-- **Walkway Oblique Black**
-- **Walkway Oblique Bold**
-- **Walkway Oblique SemiBold**
-- **Walkway Oblique UltraBold**
-- **Walkway SemiBold**
-- **Walkway UltraBold**
-- **Warp Drive**
-- **Washington Text**
-- **Webdings**
-- **Windsong**
-- **Yorktown**
-- **Zarpie**
-- **Zeriba**
+"AbjectFailure"
+"AdineKirnberg"
+"AdineKirnbergAlternate"
+"AerojonesNF"
+"AirstreamNF"
+"Alex-Brush"
+"Aller"
+"Aller-Bold"
+"Aller-Bold-Italic"
+"Aller-Display"
+"Aller-Italic"
+"Aller-Light"
+"Aller-Light-Italic"
+"Allerton"
+"Allura"
+"Alpenstube"
+"Alpine"
+"AlteCaps"
+"Amatic-Bold"
+"Amatic-SC-Regular"
+"Ambrosia"
+"AmericanText"
+"AmsterdamTangram"
+"AnagramNF"
+"Andale-Mono"
+"Aneirin"
+"Angelou"
+"AnglicanText"
+"Ani"
+"Arabella"
+"ArbuckleFat"
+"ArgosGeorge"
+"ArgosGeorgeContour"
+"Arial"
+"Arial-Black"
+"Arial-Bold"
+"Arial-Bold-Italic"
+"Arial-Italic"
+"Arizonia"
+"AtlantisFound"
+"Azteka"
+"BackstagePassNF"
+"BalaCynwydNF"
+"Bebas"
+"Becker"
+"BeckerInline"
+"BeckerShadow"
+"BellhopNF"
+"Belshaw"
+"BenjaminFranklin"
+"BeteNoirNF"
+"BigBook-Heavy"
+"BillboardCollege"
+"BillboardShadow"
+"BittersweetNF"
+"BlackJackRegular"
+"Blackletter-ExtraBold"
+"BlackletterShadow"
+"BlackwoodCastle"
+"BlackwoodCastleShadow"
+"BlockedArtistry"
+"Brazilia"
+"BreakingNews"
+"BrianJames-CondensedBold"
+"BrianJamesContour"
+"BrockScript"
+"Cabaret"
+"CabaretContour"
+"CabaretShadow"
+"CAC-Champagne"
+"CalamityJaneNF"
+"CampFire"
+"Cantarell-Bold"
+"Cantarell-Bold-Oblique"
+"Cantarell-Oblique"
+"Cantarell-Regular"
+"Cantebriggia"
+"Canterbury"
+"Capture-it"
+"Capture-it-2"
+"Cardiff"
+"CaslonCalligraphicInitials"
+"Cavalier"
+"Caviar-Dreams"
+"Caviar-Dreams-Bold"
+"Caviar-Dreams-Bold-Italic"
+"Caviar-Dreams-Italic"
+"CelticHand"
+"ChanticleerRomanNF"
+"Chelsea"
+"Chi-TownNF"
+"ChickenScript"
+"ChipperfieldandBailey"
+"ChippewaFallsNF"
+"ChockABlockNF"
+"ChocolateBoxDecorative"
+"ChocolateDropsNF"
+"ChunkFive-Roman"
+"CircuitBoredNF"
+"CircusOrnate"
+"Claritty"
+"Cleaver's_Juvenia"
+"Cleaver's_Juvenia_Blocked"
+"Clerica-Medium"
+"Coaster-Black"
+"CoasterPoster"
+"Colaborate-Bold"
+"Colaborate-Light"
+"Colaborate-Medium"
+"Colaborate-Regular"
+"Colaborate-Thin"
+"ColtaineNo2"
+"Comic-Sans-MS"
+"Comic-Sans-MS-Bold"
+"ComicXT"
+"CongaLineNF"
+"CopaseticNF"
+"CopperCanyonWBW"
+"Courier-New"
+"Courier-New-Bold"
+"Courier-New-Bold-Italic"
+"Courier-New-Italic"
+"CoventryGarden"
+"CoventryGardenNF"
+"Creampuff"
+"CuppaJoe"
+"DaddyLonglegsNF"
+"Dampfplatz-Demibold"
+"DampfplatzShadow-Heavy"
+"DampfplatzSolid-Heavy"
+"DancingDonutsNF"
+"DancingScriptOT"
+"Daniel"
+"Daniel-Black"
+"Daniel-Bold"
+"DayPosterBlackNF"
+"DeepWoodsInitials"
+"DejaVu-Sans"
+"DejaVu-Sans-Bold"
+"DejaVu-Sans-Mono"
+"DejaVu-Sans-Mono-Bold"
+"DejaVu-Serif"
+"DejaVu-Serif-Bold"
+"DeStencilNF"
+"DevinneSwash"
+"DevinneSwashShadow"
+"Digitrax"
+"DingDongDaddyoNF"
+"Direction"
+"DistressedOut"
+"DobkinScript"
+"DosEquisNF"
+"Dover-Heavy"
+"DoverContour"
+"DoverHeights"
+"DoverHeights-Bold"
+"DoverShadow"
+"Draughtsman"
+"Draughtsman-Bold"
+"Drive-ThruNF"
+"Droid-Sans"
+"Droid-Sans-Bold"
+"DrumagStudioNF"
+"DSFattyContour"
+"DSFattyShadow"
+"DSFetteGotisch"
+"dSpenser"
+"dSpenser-Bold"
+"dSpenserBlack"
+"DubbaDubbaNF"
+"DueDate"
+"Dundalk"
+"DundalkEmbossed"
+"DundalkHandDrawn"
+"DustyRoseNF"
+"DutchInitials"
+"Duvall"
+"Duvall-Bold"
+"Duvall-CondensedBold"
+"Duvall-CondensedRegular"
+"DuvallOutline"
+"DuvallSmallCaps"
+"DuvallSmallCaps-Bold"
+"DuvallSmallCaps-CondensedBold"
+"DuvallSmallCaps-CondensedRegula"
+"DuvallSmallCapsOutline"
+"DymaxionScript"
+"EgyptienneZierinitialien"
+"ElegantCapitals"
+"ElegantCapitalsII"
+"EmbossedBlack"
+"EmbossedBlack-UltraexpandedRegu"
+"EmbossedGermanica"
+"EmporiumCapitals"
+"EnglishTowne-Medium"
+"EngravierInitials"
+"Erasmus"
+"Erasmus-Bold"
+"ErasmusInline"
+"ErasmusInline-Bold"
+"Eredel"
+"Estelle"
+"Existence-Light"
+"Existence-Stencil-Light"
+"Existence-Unicase-Light"
+"Exo-Black"
+"Exo-Black-Italic"
+"Exo-Bold"
+"Exo-Bold-Italic"
+"Exo-DemiBold"
+"Exo-DemiBold-Italic"
+"Exo-ExtraBold"
+"Exo-ExtraBold-Italic"
+"Exo-ExtraLight"
+"Exo-ExtraLight-Italic"
+"Exo-Italic"
+"Exo-Light"
+"Exo-Light-Italic"
+"Exo-Medium"
+"Exo-Medium-Italic"
+"Exo-Regular"
+"Exo-Thin"
+"Exo-Thin-Italic"
+"Express"
+"FacetsNF"
+"FancyPantsNF"
+"Faranvale"
+"FargoFaroNF"
+"FashionVictim"
+"Festival"
+"Festival-Bold"
+"FestivalFlourish"
+"FestivalFlourish-Bold"
+"FeteAccompliNF"
+"FetteEgyptienne"
+"FlaemischeKanzleischrift"
+"FloranaInitials"
+"FlutedGermanica"
+"FoliarInitials"
+"Forelle"
+"Frangelica"
+"FreamePlain"
+"Full-TiltBoogieNF"
+"FunkyRundkopfNF"
+"Gabrielle"
+"GanzGrobeGotisch-Extrabold"
+"Garavol"
+"gargi"
+"Garidelli"
+"GenzschEtHeyse"
+"GenzschEtHeyseAlternate"
+"Georgia"
+"Georgia-Bold"
+"Georgia-Bold-Italic"
+"Georgia-Italic"
+"GingerPeachyNF"
+"Glastonbury"
+"Glastonbury-UltraexpandedRegula"
+"GlastonburyShadow"
+"GlastonburyShadow-Ultraexpanded"
+"GoodDog"
+"GradoGradooNF"
+"GramophoneNF"
+"GramophoneShadedNF"
+"GrandHotel-Regular"
+"Grantham"
+"Grantham-Bold"
+"Grantham-CondensedBold"
+"Grantham-CondensedLight"
+"Grantham-CondensedRegular"
+"Grantham-Light"
+"GranthamOutline"
+"GranthamShadow"
+"Graphis-Extrabold"
+"Graphis-ExtraboldItalic"
+"Grasshopper"
+"Great-Vibes"
+"GreatLakesShadowNF"
+"GrenadierNF"
+"Grimeswade"
+"Grinder"
+"GrungeFace"
+"GuinnessExtraStoutNF"
+"GulfstreamNF"
+"Hackles"
+"HalftoneBlack-Demibold"
+"HamburgerHeavenNF"
+"Handskrib"
+"HeavyTrippNF"
+"Helena"
+"Helena-Bold"
+"Helena-Outline"
+"Helena-Squat"
+"Helena-UltraexpandedRegular"
+"Hemmerhaus"
+"HenryMorganHand-Medium"
+"HentzauInitials"
+"HeraldSquareNF"
+"HeraldSquareTwoNF"
+"Hercules"
+"HighFiveJiveNF"
+"HighFiveNF"
+"HobbyHorseNF"
+"HolyRavioliNF"
+"Hominis"
+"Honduro"
+"HoneyScript-Demibold"
+"HoneyScript-Ultralight"
+"HornswoggledNF"
+"Impact"
+"Imperator"
+"Imperator-Bold"
+"ImperatorBronze"
+"ImperatorBronzeSmallCaps"
+"ImperatorPlaque"
+"ImperatorSmallCaps"
+"ImperatorSmallCaps-Bold"
+"IncisedBlack"
+"IncisedBlackWide"
+"IndochineNF"
+"IndubitablyNF"
+"Infula"
+"IronickNF"
+"Jacobi"
+"JacobiStriped"
+"Jamrul"
+"Jeepers"
+"JoostAMillionaireNF"
+"Journal"
+"JunebugStompNF"
+"JungleFeverInlineNF"
+"JungleFeverNF"
+"Karnevale"
+"KaushanScript-Regular"
+"Kedage-Bold"
+"Kedage-Normal"
+"Kefario"
+"KelmscottRomanNF"
+"KelmscottRomanNF-Bold"
+"KerfuffleNF"
+"Kildor"
+"Killigrew"
+"KilligrewStacatto"
+"Kindertype-SemiBold"
+"Kirkingham"
+"KismetNF"
+"Koloss"
+"KolossContour"
+"KurvaceousNF"
+"LabyrinthNF"
+"LackawannaWeedNF"
+"Laconick-NormalA"
+"LaffRiotNF"
+"LagniappeInlineNF"
+"LakeshoreDriveNF"
+"LakeWobegonNF"
+"Landsdowne"
+"LandsdowneShadowed"
+"Lato-Black"
+"Lato-Black-Italic"
+"Lato-Bold"
+"Lato-Bold-Italic"
+"Lato-Hairline"
+"Lato-HairlineItalic"
+"Lato-Heavy"
+"Lato-Heavy-Italic"
+"Lato-Italic"
+"Lato-Light"
+"Lato-LightItalic"
+"Lato-Medium"
+"Lato-Medium-Italic"
+"Lato-Regular"
+"Lato-Semibold"
+"Lato-Semibold-Italic"
+"Lato-Thin"
+"Lato-Thin-Italic"
+"Laurendra"
+"LeagueGothic-CondensedItalic"
+"LeagueGothic-CondensedRegular"
+"LeagueGothic-Italic"
+"LeagueGothic-Regular"
+"LearningCurveDashedPro"
+"LearningCurvePro"
+"Lewisham"
+"Lewisham-Bold"
+"Lewisham-CondensedRegular"
+"Lewisham-UltraexpandedRegular"
+"LewishamDropCaps"
+"LewishamShadowed"
+"LewishamShadowed-UltraexpandedR"
+"LewishamShadowII"
+"LewishamStripe-Bold"
+"Liberation-Mono"
+"Liberation-Mono-Bold"
+"Liberation-Mono-Bold-Italic"
+"Liberation-Mono-Italic"
+"Liberation-Sans"
+"Liberation-Sans-Bold"
+"Liberation-Sans-Bold-Italic"
+"Liberation-Sans-Italic"
+"Liberation-Sans-Narrow"
+"Liberation-Sans-Narrow-Bold"
+"Liberation-Sans-Narrow-Bold-Italic"
+"Liberation-Sans-Narrow-Italic"
+"Liberation-Serif"
+"Liberation-Serif-Bold"
+"Liberation-Serif-Bold-Italic"
+"Liberation-Serif-Italic"
+"Lightfoot"
+"Lightfoot-Bold"
+"Lightfoot-ExpandedRegular"
+"Lightfoot-ExtracondensedRegular"
+"LightfootFluted-ExpandedRegular"
+"LightfootOutline-ExpandedRegula"
+"LightfootShadowed"
+"Lighthaus"
+"Likhan"
+"Lintsec"
+"LisburneInitials"
+"LittleDeuceCoupeNF"
+"LittleLordFontleroyNF"
+"LittleRickeyNF"
+"Lobster1.3"
+"LobsterTwo"
+"LobsterTwo-Bold"
+"LobsterTwo-BoldItalic"
+"LobsterTwo-Italic"
+"Logger"
+"Lohit-Assamese"
+"Lohit-Bengali"
+"Lohit-Devanagari"
+"Lohit-Gujarati"
+"Lohit-Tamil"
+"LongIslandAntiqua"
+"LongIslandContour"
+"LongIslandShadow"
+"LostWages"
+"Louvaine"
+"LuncheonetteNF"
+"MadisonSquareNF"
+"MagicLanternNF"
+"Mallige-Bold"
+"Mallige-Normal"
+"Mangage"
+"MarchMadnessNF"
+"MarkerArt-SemiBold"
+"MarketingScript"
+"MarketingScriptInline"
+"MarketingScriptShadow"
+"MaterhornNF"
+"MediaevalCaps"
+"Meera"
+"MerriGables"
+"MetropolisNF"
+"MetroRetroNF"
+"MiddleEarthNF"
+"MidlandRailNF"
+"MidlandRailShadowNF"
+"MiltonBurlesqueNF"
+"MinstrelPosterNF"
+"MinstrelPosterTwoNF"
+"Mitra-Mono"
+"ModernTypographyNF"
+"MondoRedondoNF"
+"MonicasSalonNF"
+"MonicasSalonShadowNF"
+"MonkeyBusinessNF"
+"MonkeyFingersNF"
+"Montague"
+"MontereyPopsicleNF"
+"Morgan"
+"MorganTwentyNine"
+"Muchaka"
+"Mukti-Narrow"
+"Mukti-Narrow-Bold"
+"MunchausenNF"
+"MyFault"
+"MyGalSwoopyNF"
+"MyType"
+"NamesakeNF"
+"Neptune8-Black"
+"Newchester"
+"NickelodeonNF"
+"NickerbockerNF"
+"NickleyNF"
+"Nickodemus-Extremus"
+"NightAtTheOperaNF"
+"Nightcap"
+"NipAndTuckNF"
+"NorthFace"
+"NotMaryKateNF"
+"Nubian"
+"NubianShadow"
+"Nuggles"
+"OldeEnglish"
+"OldEnglishFive"
+"OldGateLaneNF"
+"OldgateLaneOutline"
+"Open-Sans"
+"Open-Sans-Bold"
+"Open-Sans-Bold-Italic"
+"Open-Sans-Extrabold"
+"Open-Sans-Extrabold-Italic"
+"Open-Sans-Italic"
+"Open-Sans-Light"
+"Open-Sans-Light-Italic"
+"Open-Sans-Semibold"
+"Open-Sans-Semibold-Italic"
+"ori1Uni-Medium"
+"OrionRadioNF"
+"Ostrich-Sans-Black"
+"Ostrich-Sans-Bold"
+"Ostrich-Sans-Dashed-Medium"
+"Ostrich-Sans-Light"
+"Ostrich-Sans-Medium"
+"Ostrich-Sans-Rounded-Medium"
+"Oswald-Bold"
+"Oswald-Light"
+"OswaldStencil-Bold"
+"OurGangNF"
+"OwahTaguSiamNF"
+"Pacifico"
+"PackardAntique"
+"PackardClipperNF"
+"ParkLaneNF"
+"PasticheNF"
+"PayzantPenNF"
+"Penelope"
+"Perisphere"
+"Persippiny"
+"PhattPhreddyNF"
+"PilsenPlakat"
+"PinballWhizNF"
+"PlatonickNF"
+"PleasinglyPlumpNF"
+"PlugNickelNF"
+"PointsWestNF"
+"Polo"
+"PonsonbyNF"
+"PopularCafeNF"
+"Pothana2000"
+"PrinceValiant"
+"PT-Sans"
+"PT-Sans-Bold"
+"PT-Sans-Bold-Italic"
+"PT-Sans-Caption"
+"PT-Sans-Caption-Bold"
+"PT-Sans-Italic"
+"PT-Sans-Narrow"
+"PT-Sans-Narrow-Bold"
+"PublicEnemyNF"
+"PyriformTonesNF"
+"Quicksand-Bold"
+"Quicksand-BoldItalic"
+"Quicksand-Italic"
+"Quicksand-Light"
+"Quicksand-LightItalic"
+"Quicksand-Regular"
+"QuicksandDash-Regular"
+"QuigleyWiggly"
+"Rachana"
+"RaconteurNF"
+"RadioDaysNF"
+"RadioRanchNF"
+"RaggMoppNF"
+"Raleway-Black"
+"Raleway-Black-Italic"
+"Raleway-Bold"
+"Raleway-Bold-Italic"
+"Raleway-ExtraBold"
+"Raleway-ExtraBold-Italic"
+"Raleway-ExtraLight"
+"Raleway-ExtraLight-Italic"
+"Raleway-Italic"
+"Raleway-Light"
+"Raleway-Light-Italic"
+"Raleway-Medium"
+"Raleway-Medium-Italic"
+"Raleway-Regular"
+"Raleway-SemiBold"
+"Raleway-SemiBold-Italic"
+"Raleway-Thin"
+"Raleway-Thin-Italic"
+"RaskalnikovNF"
+"RedOctoberNF"
+"Rekha"
+"Reynold-Contour"
+"ReynoldArtDeco"
+"RhubarbPie"
+"RialtoNF"
+"RicksAmericanNF"
+"RiotSquadNF"
+"RitzyNormal"
+"RitzyRemixNF"
+"RivannaNF"
+"Roboto-Black"
+"Roboto-Black-Italic"
+"Roboto-Bold"
+"Roboto-Bold-Italic"
+"Roboto-Condensed-Bold"
+"Roboto-Condensed-Bold-Italic"
+"Roboto-Condensed-Italic"
+"Roboto-Condensed-Light"
+"Roboto-Condensed-Light-Italic"
+"Roboto-Condensed-Regular"
+"Roboto-Italic"
+"Roboto-Light"
+"Roboto-Light-Italic"
+"Roboto-Medium"
+"Roboto-Medium-Italic"
+"Roboto-Regular"
+"Roboto-Thin"
+"Roboto-Thin-Italic"
+"Rockmaker"
+"RollerCoaster"
+"RollingNoOne-Extrabold"
+"RomanAntique"
+"RomanAntique-Italic"
+"RunyTunesRevisitedNF"
+"RxScript"
+"Saddlebag-Black"
+"Sail"
+"Sansation-Bold"
+"Sansation-Bold-Italic"
+"Sansation-Italic"
+"Sansation-Light"
+"Sansation-Light-Italic"
+"Sansation-Regular"
+"SansPlateCaps"
+"SarsaparillaNF"
+"Schampel-Heavy"
+"SeasideResortNF"
+"SelznickRemixNF"
+"SesquipedalianNF"
+"ShallWeGdanskNF"
+"ShinerBlock"
+"ShinzenStroke"
+"Sho-CardCapsNF"
+"SidTheKidNF"
+"SkaterPark-Black"
+"SkittlesnBeerNF"
+"Slabtag"
+"SlugfestNF"
+"SmartFrocksNF"
+"SmorgasbordNF"
+"SnappyServiceNF"
+"Sofia-Regular"
+"SonomaScript"
+"SouciSansNF"
+"Source-Sans-Pro"
+"Source-Sans-Pro-Black"
+"Source-Sans-Pro-Black-Italic"
+"Source-Sans-Pro-Bold"
+"Source-Sans-Pro-Bold-Italic"
+"Source-Sans-Pro-ExtraLight"
+"Source-Sans-Pro-ExtraLight-Italic"
+"Source-Sans-Pro-Italic"
+"Source-Sans-Pro-Light"
+"Source-Sans-Pro-Light-Italic"
+"Source-Sans-Pro-Semibold"
+"Source-Sans-Pro-Semibold-Italic"
+"SpaceCadetNF"
+"SpacePatrol"
+"SpeedballNo1NF"
+"SpeedballNo2NF"
+"SpeedballNo3NF"
+"SpondulixNF"
+"StandingRoomOnlyNF"
+"StonyIslandNF"
+"StudebakerNF"
+"StudebakerNF-Bold"
+"StudentCommons"
+"Tangerine"
+"Tangerine-Bold"
+"TanglewoodTalesNF"
+"TaraBulbousNF"
+"TeamSpiritNF"
+"Terrazan"
+"Terribo-Black"
+"TestarossaNF"
+"ThamesNudeRoman"
+"Times-New-Roman"
+"Times-New-Roman-Bold"
+"Times-New-Roman-Bold-Italic"
+"Times-New-Roman-Italic"
+"TitanickDisplayNF"
+"Titillium"
+"Titillium-Black"
+"Titillium-Bold"
+"Titillium-Bold-Italic"
+"Titillium-Bold-Upright"
+"Titillium-Light"
+"Titillium-Light-Italic"
+"Titillium-Light-Upright"
+"Titillium-Regular-Italic"
+"Titillium-Regular-Upright"
+"Titillium-Semibold"
+"Titillium-Semibold-Italic"
+"Titillium-Semibold-Upright"
+"Titillium-Thin"
+"Titillium-Thin-Italic"
+"Titillium-Thin-Upright"
+"TobaccoRoadNF"
+"TobagoPoster"
+"TobagoPosterAlternate"
+"TooneyNoodleNF"
+"Topic"
+"Topic-Bold"
+"TopicAlternates"
+"TopicAlternates-Bold"
+"ToylandNF"
+"TradingPostNF"
+"Trebuchet-MS"
+"Trebuchet-MS-Bold"
+"Trebuchet-MS-Bold-Italic"
+"Trebuchet-MS-Italic"
+"Tribeca"
+"Trocadero"
+"TroglodyteNF"
+"TropicanaNF"
+"TucsonTwoStepNF"
+"Ubuntu"
+"Ubuntu-Bold"
+"Ubuntu-Bold-Italic"
+"Ubuntu-Condensed"
+"Ubuntu-Italic"
+"Ubuntu-Light"
+"Ubuntu-Light-Italic"
+"Ubuntu-Medium"
+"Ubuntu-Medium-Italic"
+"Ubuntu-Mono"
+"Ubuntu-Mono-Bold"
+"Ubuntu-Mono-Bold-Italic"
+"Ubuntu-Mono-Italic"
+"UndergroundNF"
+"Unicorn"
+"UppenArmsNF"
+"VacationPostcardNF"
+"ValleyGrrrlNF"
+"Vemana2000"
+"Ventura-Bold"
+"VenturaInline-Bold"
+"VenturaShadow-Bold"
+"Verdana"
+"Verdana-Bold"
+"Verdana-Bold-Italic"
+"Verdana-Italic"
+"Viking"
+"VinnieBoomBahNF"
+"Vivian"
+
 
