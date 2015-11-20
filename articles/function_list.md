@@ -42,7 +42,7 @@ Optional:
 - **style** : "normal" or "italic" or "oblique" (defaults to "normal")
 - **kerning** : Distance between letters (defaults based on font)
 - **font_weight** : "bold" or "normal" (defaults to "bold")
-- **font_family** : Font of text (defaults to 'Helvetica') <br>Need an Open Source font added? Write us at support@blitline.com
+- **font** : Font of text (defaults to 'Arial') <br>Need an Open Source font added? Write us at support@blitline.com
 - **point_size** : Size of text (defaults to 32)
 - **stretch** : Stretch value (Normal/Expanded/Condensed)
 - **stroke** : Color of stroke (defaults to "transparent")
@@ -309,7 +309,7 @@ Optional:
 
 <br/>
 
-### Convert Command (BETA)
+### Convert Command
 
 **Advanced function with direct access to IM's convert command.**
 
