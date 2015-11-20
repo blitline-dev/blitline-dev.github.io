@@ -268,7 +268,8 @@ Optional:
 - **height** : Height of text area, either in pixels or percentage (ie. '90%')
 - **color** : Color of text (defaults to '#ffffff')
 - **font_weight** : "bold" or "normal" (defaults to "bold")
-- **font_family** : Font of text (defaults to 'Helvetica') <br>Need an Open Source font added? Write us at support@blitline.com
+- **font** : Font of text (defaults to 'Arial') <br>Need an Open Source font added? Write us at support@blitline.com
+- **text_gravity** : Where to align text, defaults to CenterGravity
 - **point_size** : Size of text
 - **gravity** :  Placement of text (defaults to 'CenterGravity')
 
