@@ -114,7 +114,7 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
 
 <br>
 
-![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/finish.jpg)
+![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/apply_policy.jpg)
 
 <br>
 
