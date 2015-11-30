@@ -37,11 +37,13 @@ From you AWS console, select ["Services/IAM/Users"](https://console.aws.amazon.c
 
 <br>
 
-## 2. Then name your user, we suggest something like "blitline_s3_user", the click **"CREATE"**
+## 2. Then name your user, we suggest something like "blitline_s3_user"
 
 <br>
 
 ![Name User](https://s3.amazonaws.com/web.blitline/blog/iam/name_user.jpg)
+
+## click **"CREATE"**
 
 <br>
 
@@ -51,7 +53,9 @@ IMPORTANT! You **MUST** write down the "Access Key ID" (Key) and "Secret Access 
 
 <br>
 
-Once you have written down these credentials for the user you just created, click continue
+Once you have written down these credentials for the user you just created..
+
+## ...click continue
 
 ## 3. Select the user from the list of users
 
