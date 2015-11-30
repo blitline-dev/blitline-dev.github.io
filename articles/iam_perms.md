@@ -81,7 +81,7 @@ Once you have written down these credentials for the user you just created..
 
 <br>
 
-Insert the following JSON into the policy box. IMPORTANT! You must change "YOUR_BUCKET_NAME!!" to match your actual bucket name that you want Blitline to write images into.
+Insert the following JSON into the policy box. **IMPORTANT!** You must change **"YOUR_BUCKET_NAME!!"** to match your _actual_ bucket name that you want Blitline to write images into.
 
 ```
 {
