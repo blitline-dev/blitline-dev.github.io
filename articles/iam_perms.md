@@ -83,7 +83,7 @@ Once you have written down these credentials for the user you just created..
 
 Insert the following JSON into the policy box. **IMPORTANT!** You must change **"YOUR_BUCKET_NAME!!"** to match your _actual_ bucket name that you want Blitline to write images into.
 
-```
+{% highlight json %}
 {
 	"Version": "2012-10-17",
 	"Statement": [{
@@ -100,7 +100,7 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
 		]
 	}]
 }
-```
+{% end highlight %}
 
 ![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/finish.jpg)
 
