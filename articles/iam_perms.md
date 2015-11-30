@@ -96,7 +96,7 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
                 "s3:PutObjectAcl"
             ],
             "Resource": [
-                "arn:aws:s3:::operations-topspectrum/*"
+                "arn:aws:s3:::YOUR_BUCKET_NAME!!/*"
             ]
         },
         {
@@ -105,7 +105,7 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
                 "s3:GetBucketLocation"
             ],
             "Resource": [
-                "arn:aws:s3:::operations-topspectrum"
+                "arn:aws:s3:::YOUR_BUCKET_NAME!!"
             ]
         }
     ]
