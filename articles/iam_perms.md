@@ -85,20 +85,30 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
 
 {% highlight json %}
 {
-	"Version": "2012-10-17",
-	"Statement": [{
-		"Effect": "Allow",
-		"Action": [
-			"s3:GetObject",
-			"s3:GetObjectAcl",
-			"s3:GetBucketLocation",
-			"s3:PutObject",
-			"s3:PutObjectAcl"
-		],
-		"Resource": [
-			"arn:aws:s3:::YOUR_BUCKET_NAME!!/*"
-		]
-	}]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObject",
+                "s3:GetObjectAcl",
+                "s3:PutObject",
+                "s3:PutObjectAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::operations-topspectrum/*"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetBucketLocation"
+            ],
+            "Resource": [
+                "arn:aws:s3:::operations-topspectrum"
+            ]
+        }
+    ]
 }
 {% endhighlight %}
 
