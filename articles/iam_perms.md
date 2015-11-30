@@ -100,7 +100,9 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
 		]
 	}]
 }
-{% end highlight %}
+{% endhighlight %}
+
+<br>
 
 ![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/finish.jpg)
 
