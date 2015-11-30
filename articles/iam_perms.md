@@ -55,7 +55,7 @@ After creating your new user, it is **IMPORTANT** that you **MUST** write down t
 
 Once you have written down these credentials for the user you just created..
 
-## ...click continue
+## ...click "CLOSE"
 
 ## 3. Select the user from the list of users
 
