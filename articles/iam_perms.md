@@ -47,7 +47,7 @@ From you AWS console, select ["Services/IAM/Users"](https://console.aws.amazon.c
 
 <br>
 
-IMPORTANT! You **MUST** write down the "Access Key ID" (Key) and "Secret Access Key" (Secret). This "Key" and "Secret" will be what you need to enter on Blitline.com. You will not have access to your "Secret" at any other time on AWS besides this screen.
+After creating your new user, it is **IMPORTANT** that you **MUST** write down the "Access Key ID" (Key) and "Secret Access Key" (Secret). This "Key" and "Secret" will be what you need to enter on Blitline.com. You will not have access to your "Secret" at any other time on AWS besides this screen.
 
 ![Record Key](https://s3.amazonaws.com/web.blitline/blog/iam/key_secret.jpg)
 
@@ -91,6 +91,7 @@ Insert the following JSON into the policy box. **IMPORTANT!** You must change **
 		"Action": [
 			"s3:GetObject",
 			"s3:GetObjectAcl",
+			"s3:GetBucketLocation",
 			"s3:PutObject",
 			"s3:PutObjectAcl"
 		],
