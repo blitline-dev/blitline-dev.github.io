@@ -29,13 +29,17 @@ From you AWS console, select ["Services/IAM/Users"](https://console.aws.amazon.c
 
 <br>
 
-Now, create a Blitline user
+## 1. Create a Blitline user
+
+<br>
 
 ![Create User](https://s3.amazonaws.com/web.blitline/blog/iam/click_create_user.jpg)
 
 <br>
 
-Then name your user, we suggest something like "blitline_s3_user", the click **"CREATE"**
+## 2. Then name your user, we suggest something like "blitline_s3_user", the click **"CREATE"**
+
+<br>
 
 ![Name User](https://s3.amazonaws.com/web.blitline/blog/iam/name_user.jpg)
 
@@ -47,19 +51,27 @@ IMPORTANT! You **MUST** write down the "Access Key ID" (Key) and "Secret Access 
 
 <br>
 
-Once created, select your user from the list of users
+Once you have written down these credentials for the user you just created, click continue
+
+## 3. Select the user from the list of users
+
+<br>
 
 ![Select User](https://s3.amazonaws.com/web.blitline/blog/iam/click_blitline_s3_user.jpg)
 
 <br>
 
-Create new inline policy
+## 4. Create new inline policy
+
+<br>
 
 ![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/inline_policy.jpg)
 
 <br>
 
-Select add custom policy
+## 4. Select add custom policy
+
+<br>
 
 ![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/add_custom.jpg)
 
@@ -85,9 +97,15 @@ Insert the following JSON into the policy box. IMPORTANT! You must change "YOUR_
 }
 ```
 
-![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/add_custom.jpg)
+![User Inline](https://s3.amazonaws.com/web.blitline/blog/iam/finish.jpg)
 
+<br>
 
+Click **APPLY POLICY** 
+
+<br>
+
+You have now created a new user with an IAM policy that has access to your S3 bucket. Now go to Blitline.com, log in,  and enter the Key and Secret you wrote down above.
 
 
 
