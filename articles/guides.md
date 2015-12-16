@@ -17,7 +17,8 @@ Getting Started:
 
 Outputting:
 
-- [**NEW!** S3 Signed Urls](/articles/s3_signed_urls.html)
+- [**NEW!** IAM Users] (/articles/iam_perms.html)
+- [S3 Signed Urls](/articles/s3_signed_urls.html)
 - [S3 Destination](/articles/s3_destination.html)
 - [Azure Destination](/articles/azure_destination.html)
 - [FTP Destination](/articles/ftp.html)
@@ -34,7 +35,7 @@ Advanced:
  
 Specialized Processing:
 
-- [**NEW!** Smart Image](/articles/smart_image.html)
+- [Smart Image](/articles/smart_image.html)
 - [PDF](/articles/pdf.html)
 - [GIF](/articles/gif.html)
 - [Screenshots of websites](/articles/screenshots.html)
