@@ -28,6 +28,8 @@ Advanced:
 
 - [Metadata](/articles/metadata.html)
 - [Colorspace](/articles/colorspace.html)
+- [Color Extraction](/articles/advanced_processing.html)
+- [Static IP (whitelist)](/articles/static_ips.html)
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
 - [Advanced Image Processing](/articles/advanced_processing.html)
 - [Formats](/articles/formats.html)
