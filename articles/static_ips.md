@@ -30,13 +30,15 @@ Blitline Proxies:
 
 <br/>
 
-{% highlight bash %}
+{% highlight text %}
 
 52.70.222.55
 52.72.65.98
 52.4.244.159
 
 {% endhighlight %}
+
+<br/>
 
 ***You must whitelist ALL 3 addresses.***
 
