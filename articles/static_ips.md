@@ -34,16 +34,17 @@ Blitline Proxies:
 
 52.70.222.55
 52.72.65.98
+54.235.160.57
 52.4.244.159
 
 {% endhighlight %}
 
 <br/>
 
-***You must whitelist ALL 3 addresses.***
+***You must whitelist ALL 4 IP addresses.***
 
 <br/>
 
-When "use_proxy" : true is set, all postbacks will come through 1 of the 3 IP addresses listed above.
+When "use_proxy" : true is set, all postbacks will come through 1 of the IP addresses listed above.
 
 
