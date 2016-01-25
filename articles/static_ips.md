@@ -47,4 +47,9 @@ Blitline Proxies:
 
 When "use_proxy" : true is set, all postbacks will come through 1 of the IP addresses listed above.
 
+You can see an example here:
+
+https://www.blitline.com/docs/gist_runner?gist_id=c3fdf021e5152d69dbea
+
+
 
