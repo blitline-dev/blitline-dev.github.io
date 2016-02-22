@@ -45,7 +45,7 @@ Blitline Proxies:
 
 <br/>
 
-When "use_proxy" : true is set, all postbacks will come through 1 of the IP addresses listed above.
+When **"use_proxy" : true** is set, all postbacks will come through 1 of the IP addresses listed above.
 
 <br/>
 
