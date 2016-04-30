@@ -59,7 +59,7 @@ layout: article
 ?gist_id=6017364)	This example shows compositing one image on top of another image (A over B) and also how to composite under another image (A under B)
 - [**Imagga (Smart) Tags:**](http://www.blitline.com/docs/gist_runner
 ?gist_id=abce888c82025d923769)	This example shows chooses a random image and runs the Imagga Tag analyzer on it. The results will show what the Imagga Tag analyzer thinks proper tags are for the image.
-- [**Set background opposite of foreground**] When handling tranparent pngs, the default background is white, but if the PNG is white, you want the background to be dark instead.
+- [**Set background opposite of foreground**](https://www.blitline.com/docs/gist_runner?gist_id=0f2dcce003ac391f0bad) When handling tranparent pngs, the default background is white, but if the PNG is white, you want the background to be dark instead.
 <br/>
 
 ### Kitchen Sink Example
