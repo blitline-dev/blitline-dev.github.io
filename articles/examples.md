@@ -98,7 +98,7 @@ The following is the stereotypical job JSON for handling images uploaded via web
 <br/>
 
 [Upload photos from a browser and process with Blitline.
-](https://github.com/blitline-dev/blitquick)
+](https://github.com/blitline-dev/simple_blitline_example
 
 <br/>
 
