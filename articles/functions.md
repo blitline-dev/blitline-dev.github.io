@@ -67,7 +67,7 @@ To output an image after a function has completed just add a **save** node to th
         "color":"#ffffff"
     },
     "save" : {
-        "image_indetifier" : "my_annotated_image",
+        "image_identifier" : "my_annotated_image",
     	"s3_destination" : {
             "key" : "my_key/to_my_image/image.png",
             "bucket" : "my_s3_bucket"
@@ -98,7 +98,7 @@ A common scenario is that you may want to chain functions together, such as anno
         "color": "#ffffff"
     },
     "save": {
-        "image_indetifier": "my_annotated_image",
+        "image_identifier": "my_annotated_image",
         "s3_destination": {
             "key": "my_key/to_my_image/image.png",
             "bucket": "my_s3_bucket"
@@ -111,7 +111,7 @@ A common scenario is that you may want to chain functions together, such as anno
                 "width": 300
             },
             "save": {
-                "image_indetifier": "my_annotated_resized_thumbnail",
+                "image_identifier": "my_annotated_resized_thumbnail",
                 "s3_destination": {
                     "key": "my_key/to_my_image/image.png",
                     "bucket": "my_s3_bucket"
