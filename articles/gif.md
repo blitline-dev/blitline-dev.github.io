@@ -123,3 +123,27 @@ Overlays an image onto an animated gif.
   }
 {% endhighlight %}
 
+### Convert GIF to video file
+
+Will take an animated GIF and turn it into an mp4 video. 
+
+You MUST provide an S3 Destination for gif_to_vid functionality.
+
+{% highlight json %}
+{
+  "application_id": "YOUR_APP_ID",
+  "src": "https://s3.amazonaws.com/blitdoc/gifs/superbowl.gif",
+  "src_type": "pre_process_only",
+  "pre_process": [
+    {
+      "gif_to_vid": {
+        "loop_count": 4,
+        "s3_destination": {
+          "bucket": "bltemp.shortlife",
+          "key": "grumpy_squirrel/movified_gif_4.mp4"
+        }
+      }
+    }
+  ]
+}
+{% endhighlight %}
