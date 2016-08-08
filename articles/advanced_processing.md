@@ -191,3 +191,53 @@ The output will be in the **original_metadata** tag and look like:
 }
 {% endhighlight %}
 
+### Finding subimage
+
+<br/>
+
+Blitline can try to find an image within another image. You can use the pre-process functionality to determine if a subimage exists within another image.
+
+<br/>
+
+Currently we only support a 'first found' functionality, and can return the x,y co-ordinates of the found image.
+
+{% highlight json %}
+{
+  "src_type": "pre_process_only",
+  "application_id": "YOUR_APP_UID",
+  "src": "http://cdn.blitline.com/filters/boys.jpeg",
+  "v": 1.22,
+  "pre_process": [
+    {
+      "find_subimage": {
+        "subimage_src": "https://s3.amazonaws.com/blitdoc/pngs/boys_subimage.jpg"
+      }
+    }
+  ]
+}
+{% endhighlight %}
+
+<br/>
+
+This will postback the following JSON:
+
+{% highlight json %}
+[
+  {
+    "action_result": {
+      "is_found": true,
+      "found_location": {
+        "x": 100,
+        "y": 100,
+        "accuracy": 0.0258131
+      }
+    }
+  }
+]
+{% endhighlight %}
+
+<br/>
+Where there will always be an "is_found" boolean result, and if "true", there will be a "found_location" with x,y co-ordinates.
+
+
+
