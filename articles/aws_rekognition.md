@@ -37,13 +37,19 @@ The resulting JSON will contain the metadata from AWS about those images.
 
 ### PRICING:
 
+<br/>
+
 Blitline will add +10 seconds onto any job that uses the "detect_faces" or "detect_labels" option in the json (or 20 seconds for BOTH). So, for example if your blitline job would typically take X seconds, but you added “detect_labels”: true, it would now be billed at <b>X+10</b> seconds (even though it only took X seconds to complete processing).
+
+<br/>
 
 ### How do I use it?
 
 <br/>
 
 Just add the "detect_faces" or "detect_labels" option to your root JSON.
+
+<br/>
 
 {% highlight json %}
   {
