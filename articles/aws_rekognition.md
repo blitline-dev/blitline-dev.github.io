@@ -33,6 +33,8 @@ http://docs.aws.amazon.com/rekognition/latest/dg/detect-faces-console.html
 
 You can get this information from your Blitline processed images simply by adding "detect_faces" or "detect_labels" to your base JSON.
 
+<br/>
+
 The resulting JSON will contain the metadata from AWS about those images.
 
 ### PRICING:
