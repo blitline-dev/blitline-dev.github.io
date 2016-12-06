@@ -71,5 +71,7 @@ Just add the "detect_faces" or "detect_labels" option to your root JSON.
 
 See an example here:
 
-https://www.blitline.com/v3/home/gist?gist_id=e91abd18aaa0731a66ff97c24d6eee0e
+Example: [https://www.blitline.com/v3/home/gist?gist_id=e91abd18aaa0731a66ff97c24d6eee0e](https://www.blitline.com/v3/home/gist?gist_id=e91abd18aaa0731a66ff97c24d6eee0e)
+
+
 
