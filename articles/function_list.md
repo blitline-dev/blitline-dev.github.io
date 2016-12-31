@@ -202,6 +202,7 @@ Optional:
 
 - **scale_to_fit** : { "width" : width, "height" : height }, to automatically scale src specific size. Can also be percentage if suffixed with %
 - **scale_to_match** : "true" or "false" to automatically scale src to the same size as current image (defaults to false)
+- **scale_to_fill** : { "width" : width, "height" : height }, to automatically scale src to fill specific size. Can also be percentage if suffixed with %
 - **as_mask** : "true" or "false" to use src as a greyscale mask (defaults to false)
 - **x** : X offset of where to place image on original image
 - **y** : Y offset of where to place image on original image
