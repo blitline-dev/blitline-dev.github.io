@@ -25,7 +25,7 @@ In other words... pre_processed jobs will be executed BEFORE the main Blitline j
 
 <br/>
 
-You can watch a small presentation about this **[here...]("http://prezi.com/ztgpuvoyrtwa/using-the-blitline-pre_process-tag/")**
+You can watch a small presentation about this **[here...](http://prezi.com/ztgpuvoyrtwa/using-the-blitline-pre_process-tag/)**
 
 <br/>
 
