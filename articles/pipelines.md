@@ -12,7 +12,7 @@ Some jobs and workflows do not fit in to the linear, asynchronous flow of a Blit
 ## "move_original"
 Before processing a job, Blitline can move the original "src" file to a particular S3 destination.
 
-show me...
+["show me..."](https://www.blitline.com/docs/gist_runner?gist_id=5051044)
 
 <br/>
 
@@ -23,3 +23,8 @@ We have had a bunch of feedback regarding the ability to process an image and th
 
 In other words... pre_processed "jobs" will be executed BEFORE the main Blitline job. You can also reference those pre_processed images in your main Blitline job.
 
+<br/>
+
+You can watch a small presentation about this ["here...]("http://prezi.com/ztgpuvoyrtwa/using-the-blitline-pre_process-tag/")
+
+<br/>
