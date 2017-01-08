@@ -9,13 +9,15 @@ Some jobs and workflows do not fit in to the linear, asynchronous flow of a Blit
 
 <br/>
 
-## move_original
+## "move_original"
+Before processing a job, Blitline can move the original "src" file to a particular S3 destination.
+
 show me...
 
 <br/>
 
-## jobs
-We have had a bunch of feedback regarding the ability to process 1 image and then use that 1 image IN a different Blitline job. Usually this occurs when compositing images, and you want to resize image "A" and the composite it on to a resized image "B". With the current implementation, this takes 2 separate Blitline jobs. By having jobs in a "pre_process" tag, you can assure that 1 job is done before executing another job, thus providing a "synchronous" queue of image processing.
+## "jobs"
+We have had a bunch of feedback regarding the ability to process an image and then use that image IN a different Blitline job. Usually this occurs when compositing images, and you want to resize image "A" and the composite it on to a resized image "B". With the current implementation, this takes 2 separate Blitline jobs. By having jobs in a "pre_process" tag, you can assure that 1 job is done before executing another job, thus providing a "synchronous" queue of image processing.
 
 <br/>
 
