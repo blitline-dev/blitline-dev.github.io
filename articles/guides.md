@@ -33,6 +33,7 @@ Advanced:
 - [Signed Jobs](/articles/signed_jobs.html) (Keeping your App ID Secret!)
 - [Advanced Image Processing](/articles/advanced_processing.html)
 - [Formats](/articles/formats.html)
+- [Pipelines ('pre_process')](/articles/pipelines.html)
 
 Specialized Processing:
 
