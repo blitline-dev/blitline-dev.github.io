@@ -25,7 +25,7 @@ In other words... pre_processed jobs will be executed BEFORE the main Blitline j
 
 <br/>
 
-You can watch a small presentation about this [here...]("http://prezi.com/ztgpuvoyrtwa/using-the-blitline-pre_process-tag/")
+You can watch a small presentation about this **[here...]("http://prezi.com/ztgpuvoyrtwa/using-the-blitline-pre_process-tag/")**
 
 <br/>
 
@@ -71,3 +71,11 @@ In a nutshell, you can just put a regular "job" inside a "pre_process" tag, this
     ]
 }
 {% endhighlight %}
+
+<br/>
+
+Notice, to reference a "pre_process" job output, just place a "&" in fron of the "image_identifier" from the "pre_process" job.
+
+<br/>
+
+
