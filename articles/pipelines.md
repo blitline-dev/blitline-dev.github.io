@@ -138,6 +138,14 @@ In this example, Blitline will look for "boys_subimage.jpg" inside the "boys.jpe
 
 {% endhighlight %}
 
-Where accuracy represents 
+<br/>
+
+Where accuracy represents how certain we are about the image being found in that particular location.
+
+<br/>
+
+**NOTE:** It will only return 1 result, the one with the highest accuracy.
+
+
 
 
