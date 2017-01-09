@@ -123,7 +123,7 @@ You can search for an image **INSIDE** another image. This functionality will ta
 
 In this example, Blitline will look for "boys_subimage.jpg" inside the "boys.jpeg" image. The results will look like:
 
-<% highlight json %}
+{% highlight json %}
 
 {
   "action_result": {
