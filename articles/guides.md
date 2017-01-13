@@ -17,12 +17,12 @@ Getting Started:
 
 Outputting:
 
-- [**NEW!** IAM Users](/articles/iam_perms.html)
+- [IAM Users](/articles/iam_perms.html)
 - [S3 Signed Urls](/articles/s3_signed_urls.html)
 - [S3 Destination](/articles/s3_destination.html)
 - [Azure Destination](/articles/azure_destination.html)
 - [FTP Destination](/articles/ftp.html)
-- [**NEW!** Other Cloud Destinations](/articles/other_cloud_storage_services.html)
+- [Other Cloud Destinations](/articles/other_cloud_storage_services.html)
 
 Advanced:
 
@@ -38,6 +38,7 @@ Advanced:
 Specialized Processing:
 
 - [**NEW!** AWS Rekogition](/articles/aws_rekognition.html)
+- [**NEW!** Apache Tika™](/articles/tika.html)
 - [Smart Image](/articles/smart_image.html)
 - [PDF](/articles/pdf.html)
 - [GIF](/articles/gif.html)
