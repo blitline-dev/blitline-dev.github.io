@@ -21,7 +21,7 @@ A common use-case for this word be to get the text from PDF documents while thum
 
 <br/>
 
-Just add **"get_tika" : "true" ** option to your root JSON.
+Just add **get_tika** : **true" ** option to your root JSON.
 
 <br/>
 
