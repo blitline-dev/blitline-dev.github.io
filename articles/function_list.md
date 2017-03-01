@@ -1458,7 +1458,7 @@ Sample:
 
 Optional:
 
-- **fuzz** : Fuzz the trimming edge. For JPEGs, due to compression or anti-aliasing often times edges aren't a clean line. The "fuzz" values allows you to trim with a slight extra fuzz around the trim area.
+- **fuzz** : Fuzz the trimming edge. For JPEGs, due to compression or anti-aliasing often times edges aren't a clean line. The "fuzz" values allows you to trim with a slight extra fuzz around the trim area. (Defaults to 0.0, valid values are 0.0 - 1.0)
 
 <br/>
 
