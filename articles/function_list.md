@@ -643,7 +643,7 @@ Sample:
 }
 {% endhighlight %}
 
-br/>
+<br/>
 
 ### Image Grid
 
