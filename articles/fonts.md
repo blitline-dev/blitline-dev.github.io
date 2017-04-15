@@ -19,7 +19,6 @@ Here is a list of the installed fonts:
 
 <br/>
 
-- "AGA-Rasheeq-V.2-رشيق",
 - "AbjectFailure",
 - "AdineKirnberg",
 - "AdineKirnbergAlternate",
