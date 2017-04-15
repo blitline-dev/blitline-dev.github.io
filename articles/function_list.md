@@ -643,6 +643,53 @@ Sample:
 }
 {% endhighlight %}
 
+br/>
+
+### Image Grid
+
+**Builds a grid of input images**
+
+<br/>
+
+Sample:
+{% highlight json%}
+{
+"name":"image_grid",
+"params":{
+    "images": [
+      "https://s3.amazonaws.com/img.blitline/skysmall.jpg",
+      "https://unsplash.it/200/300/?random",
+      "https://unsplash.it/200/300/?random",
+      "https://unsplash.it/200/300/?random",
+      "https://unsplash.it/200/300/?random",
+      "https://unsplash.it/200/300/?random"
+    ],
+    "cell_width": 200,
+    "cell_height" : 200,
+    "columns" : 3,
+    "padding" : 2,
+    "color" : "#ffda5a"
+}
+{% endhighlight %}
+
+<br/>
+
+Required:
+
+- **images** : Array of images to be placed into the grid
+- cell_width : Width of cell to output
+- cell_height : Height of cell to output
+- columns : Number of columns to display
+
+Optional:
+
+- padding : Padding between cells
+- color : Color of padding
+
+<br/>
+
+Example: [https://www.blitline.com/v3/home/gist?gist_id=af4943b5e1297b5214494d2ed600e7a5](https://www.blitline.com/v3/home/gist?gist_id=af4943b5e1297b5214494d2ed600e7a5 )
+
 <br/>
 
 ### Imagga Smart Crop
