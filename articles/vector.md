@@ -89,6 +89,27 @@ You can tell if you job is done in two ways:
 
 <br/>
 
+### Image to Vector (Experimental)
+
+<br/>
+
+We can even make some simple conversions from an image to a Vector! 
+
+<br />
+
+For example, turn a regular image into this:
+
+<br/>
+
+https://s3.amazonaws.com/web.blitline/pdfs/vector_from_image.pdf
+
+<br/>
+
+If you want more info about how to do this, feel free to try it out at:
+
+http://api.blitline.com/actions/image_to_vector?application_id=YOUR_APP_ID&src=https://i.ytimg.com/vi/7QNfUE7hBUc/maxresdefault.jpg&extension=pdf
+
+<br/>
 We are always here to help!
 
 <br/>

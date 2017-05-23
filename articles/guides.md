@@ -40,6 +40,7 @@ Specialized Processing:
 
 - [**NEW!** AWS Rekogition](/articles/aws_rekognition.html)
 - [**NEW!** Apache Tika™](/articles/tika.html)
+- [**NEW!** Image to Vector](/articles/vector.html)
 - [Smart Image](/articles/smart_image.html)
 - [PDF](/articles/pdf.html)
 - [GIF](/articles/gif.html)
