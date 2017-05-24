@@ -109,7 +109,7 @@ If you want more info about how to do this, feel free to try it out at:
 
 <br/>
 
-{% highlight html %}
+{% highlight text %}
 
 http://api.blitline.com/actions/image_to_vector?application_id=YOUR_APP_ID&src=https://i.ytimg.com/vi/7QNfUE7hBUc/maxresdefault.jpg&extension=pdf
 
