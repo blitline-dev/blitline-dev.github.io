@@ -107,7 +107,13 @@ https://s3.amazonaws.com/web.blitline/pdfs/vector_from_image.pdf
 
 If you want more info about how to do this, feel free to try it out at:
 
+<br/>
+
+{% highlight html %}
+
 http://api.blitline.com/actions/image_to_vector?application_id=YOUR_APP_ID&src=https://i.ytimg.com/vi/7QNfUE7hBUc/maxresdefault.jpg&extension=pdf
+
+{% endhighlight %}
 
 <br/>
 We are always here to help!
