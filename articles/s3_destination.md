@@ -63,7 +63,7 @@ You can do this through the AWS web console:
 
 ---
 
-!["Bucket Properties"](https://s3.amazonaws.com/web.blitline/blog/bucket_properties.jpg)
+!["Bucket Properties"](https://s3.amazonaws.com/web.blitline/policy.png)
 
 ---
 
