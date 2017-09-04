@@ -15,8 +15,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 1080p**
 --------------------------
 - Description: System preset generic 1080p
-- ID 1351620000001-000001
-- Output mp4
+- ID: 1351620000001-000001
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -48,8 +48,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 720p**
 --------------------------
 - Description: System preset generic 720p
-- ID 1351620000001-000010
-- Output mp4
+- ID: 1351620000001-000010
+- Output: mp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -80,8 +80,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 480p 16:9**
 --------------------------
 - Description: System preset generic 480p 16:9
-- ID 1351620000001-000020
-- Output mp4
+- ID: 1351620000001-000020
+- Output: mp4
 - Max Height: 480
 - Max Width: 854
 
@@ -112,8 +112,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 480p 4:3**
 --------------------------
 - Description: System preset generic 480p 4:3
-- ID 1351620000001-000030
-- Output mp4
+- ID: 1351620000001-000030
+- Output: mp4
 - Max Height: 480
 - Max Width: 640
 
@@ -144,8 +144,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 360p 16:9**
 --------------------------
 - Description: System preset generic 360p 16:9
-- ID 1351620000001-000040
-- Output mp4
+- ID: 1351620000001-000040
+- Output: mp4
 - Max Height: 360
 - Max Width: 640
 
@@ -176,8 +176,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 360p 4:3**
 --------------------------
 - Description: System preset generic 360p 4:3
-- ID 1351620000001-000050
-- Output mp4
+- ID: 1351620000001-000050
+- Output: mp4
 - Max Height: 360
 - Max Width: 480
 
@@ -208,8 +208,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **System preset generic 320x240**
 --------------------------
 - Description: System preset generic 320x240
-- ID 1351620000001-000061
-- Output mp4
+- ID: 1351620000001-000061
+- Output: mp4
 - Max Height: 240
 - Max Width: 320
 
@@ -240,8 +240,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **iPhone 4s and above, iPad 3G and above, iPad mini, Samsung Galaxy S2/S3/Tab 2**
 --------------------------
 - Description: iPhone 4s and above, iPad 3G and above, iPad mini, Samsung Galaxy S2/S3/Tab 2
-- ID 1351620000001-100020
-- Output mp4
+- ID: 1351620000001-100020
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -272,8 +272,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **iPhone 1, 3, iPod classic**
 --------------------------
 - Description: iPhone 1, 3, iPod classic
-- ID 1351620000001-100040
-- Output mp4
+- ID: 1351620000001-100040
+- Output: mp4
 - Max Height: 480
 - Max Width: 640
 
@@ -304,8 +304,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Apple TV 2G**
 --------------------------
 - Description: Apple TV 2G
-- ID 1351620000001-100050
-- Output mp4
+- ID: 1351620000001-100050
+- Output: mp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -336,8 +336,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Apple TV 3G, Roku HD/2 XD**
 --------------------------
 - Description: Apple TV 3G, Roku HD/2 XD
-- ID 1351620000001-100060
-- Output mp4
+- ID: 1351620000001-100060
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -368,8 +368,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Facebook, SmugMug, Vimeo, YouTube**
 --------------------------
 - Description: Facebook, SmugMug, Vimeo, YouTube
-- ID 1351620000001-100070
-- Output mp4
+- ID: 1351620000001-100070
+- Output: mp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -400,8 +400,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Kindle Fire HD**
 --------------------------
 - Description: Kindle Fire HD
-- ID 1351620000001-100080
-- Output mp4
+- ID: 1351620000001-100080
+- Output: mp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -432,8 +432,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Kindle Fire HD 8.9**
 --------------------------
 - Description: Kindle Fire HD 8.9
-- ID 1351620000001-100090
-- Output mp4
+- ID: 1351620000001-100090
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -464,8 +464,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Kindle Fire HDX, Kindle Fire HDX 8.9**
 --------------------------
 - Description: Kindle Fire HDX, Kindle Fire HDX 8.9
-- ID 1351620000001-100150
-- Output mp4
+- ID: 1351620000001-100150
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -496,8 +496,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **NTSC - MPG**
 --------------------------
 - Description: NTSC - MPG
-- ID 1351620000001-100160
-- Output mpg
+- ID: 1351620000001-100160
+- Output: mpg
 - Max Height: 480
 - Max Width: 720
 
@@ -528,8 +528,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **PAL - MPG**
 --------------------------
 - Description: PAL - MPG
-- ID 1351620000001-100170
-- Output mpg
+- ID: 1351620000001-100170
+- Output: mpg
 - Max Height: 576
 - Max Width: 720
 
@@ -560,8 +560,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Full HD 1080i60 - MP4**
 --------------------------
 - Description: Full HD 1080i60 - MP4
-- ID 1351620000001-100180
-- Output mp4
+- ID: 1351620000001-100180
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -594,8 +594,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Full HD 1080i50 - MP4**
 --------------------------
 - Description: Full HD 1080i50 - MP4
-- ID 1351620000001-100190
-- Output mp4
+- ID: 1351620000001-100190
+- Output: mp4
 - Max Height: 1080
 - Max Width: 1920
 
@@ -628,8 +628,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Gif (Animated)**
 --------------------------
 - Description: Gif (Animated)
-- ID 1351620000001-100200
-- Output gif
+- ID: 1351620000001-100200
+- Output: gif
 - Max Height: auto
 - Max Width: auto
 
@@ -654,8 +654,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Web: Flash Video**
 --------------------------
 - Description: Web: Flash Video
-- ID 1351620000001-100210
-- Output flv
+- ID: 1351620000001-100210
+- Output: flv
 - Max Height: 720
 - Max Width: 1280
 
@@ -688,8 +688,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Full HD 1080i60 - XDCAM422**
 --------------------------
 - Description: Full HD 1080i60 - XDCAM422
-- ID 1351620000001-100220
-- Output mxf
+- ID: 1351620000001-100220
+- Output: mxf
 - Max Height: 1080
 - Max Width: 1920
 
@@ -720,8 +720,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Full HD 1080i50 - XDCAM422**
 --------------------------
 - Description: Full HD 1080i50 - XDCAM422
-- ID 1351620000001-100230
-- Output mxf
+- ID: 1351620000001-100230
+- Output: mxf
 - Max Height: 1080
 - Max Width: 1920
 
@@ -752,8 +752,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Webm 720p**
 --------------------------
 - Description: Webm 720p
-- ID 1351620000001-100240
-- Output webm
+- ID: 1351620000001-100240
+- Output: webm
 - Max Height: 720
 - Max Width: 1280
 
@@ -780,8 +780,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Webm VP9 720p**
 --------------------------
 - Description: Webm VP9 720p
-- ID 1351620000001-100250
-- Output webm
+- ID: 1351620000001-100250
+- Output: webm
 - Max Height: 720
 - Max Width: 1280
 
@@ -806,8 +806,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Webm VP9 360p**
 --------------------------
 - Description: Webm VP9 360p
-- ID 1351620000001-100260
-- Output webm
+- ID: 1351620000001-100260
+- Output: webm
 - Max Height: 360
 - Max Width: 640
 
@@ -832,8 +832,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS 2M**
 --------------------------
 - Description: HLS 2M
-- ID 1351620000001-200010
-- Output ts
+- ID: 1351620000001-200010
+- Output: ts
 - Max Height: 768
 - Max Width: 1024
 
@@ -864,8 +864,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS Video - 2M**
 --------------------------
 - Description: HLS Video - 2M
-- ID 1351620000001-200015
-- Output ts
+- ID: 1351620000001-200015
+- Output: ts
 - Max Height: 768
 - Max Width: 1024
 
@@ -899,8 +899,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS 1.5M**
 --------------------------
 - Description: HLS 1.5M
-- ID 1351620000001-200020
-- Output ts
+- ID: 1351620000001-200020
+- Output: ts
 - Max Height: 640
 - Max Width: 960
 
@@ -931,8 +931,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS Video - 1.5M**
 --------------------------
 - Description: HLS Video - 1.5M
-- ID 1351620000001-200025
-- Output ts
+- ID: 1351620000001-200025
+- Output: ts
 - Max Height: 640
 - Max Width: 960
 
@@ -966,8 +966,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS 1M**
 --------------------------
 - Description: HLS 1M
-- ID 1351620000001-200030
-- Output ts
+- ID: 1351620000001-200030
+- Output: ts
 - Max Height: 432
 - Max Width: 640
 
@@ -998,8 +998,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS Video - 1M**
 --------------------------
 - Description: HLS Video - 1M
-- ID 1351620000001-200035
-- Output ts
+- ID: 1351620000001-200035
+- Output: ts
 - Max Height: 432
 - Max Width: 640
 
@@ -1033,8 +1033,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS 600k**
 --------------------------
 - Description: HLS 600k
-- ID 1351620000001-200040
-- Output ts
+- ID: 1351620000001-200040
+- Output: ts
 - Max Height: 320
 - Max Width: 480
 
@@ -1065,8 +1065,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS Video - 600k**
 --------------------------
 - Description: HLS Video - 600k
-- ID 1351620000001-200045
-- Output ts
+- ID: 1351620000001-200045
+- Output: ts
 - Max Height: 320
 - Max Width: 480
 
@@ -1100,8 +1100,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS 400k**
 --------------------------
 - Description: HLS 400k
-- ID 1351620000001-200050
-- Output ts
+- ID: 1351620000001-200050
+- Output: ts
 - Max Height: 288
 - Max Width: 400
 
@@ -1132,8 +1132,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **HLS Video - 400k**
 --------------------------
 - Description: HLS Video - 400k
-- ID 1351620000001-200055
-- Output ts
+- ID: 1351620000001-200055
+- Output: ts
 - Max Height: 288
 - Max Width: 400
 
@@ -1167,8 +1167,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 3M**
 --------------------------
 - Description: Smooth 3M
-- ID 1351620000001-400010
-- Output fmp4
+- ID: 1351620000001-400010
+- Output: fmp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -1201,8 +1201,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 2M**
 --------------------------
 - Description: Smooth 2M
-- ID 1351620000001-400020
-- Output fmp4
+- ID: 1351620000001-400020
+- Output: fmp4
 - Max Height: 560
 - Max Width: 992
 
@@ -1235,8 +1235,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 1.5M**
 --------------------------
 - Description: Smooth 1.5M
-- ID 1351620000001-400030
-- Output fmp4
+- ID: 1351620000001-400030
+- Output: fmp4
 - Max Height: 432
 - Max Width: 768
 
@@ -1269,8 +1269,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 1M**
 --------------------------
 - Description: Smooth 1M
-- ID 1351620000001-400040
-- Output fmp4
+- ID: 1351620000001-400040
+- Output: fmp4
 - Max Height: 332
 - Max Width: 592
 
@@ -1303,8 +1303,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 800k**
 --------------------------
 - Description: Smooth 800k
-- ID 1351620000001-400050
-- Output fmp4
+- ID: 1351620000001-400050
+- Output: fmp4
 - Max Height: 252
 - Max Width: 448
 
@@ -1337,8 +1337,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 600k**
 --------------------------
 - Description: Smooth 600k
-- ID 1351620000001-400060
-- Output fmp4
+- ID: 1351620000001-400060
+- Output: fmp4
 - Max Height: 208
 - Max Width: 368
 
@@ -1371,8 +1371,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 500k**
 --------------------------
 - Description: Smooth 500k
-- ID 1351620000001-400070
-- Output fmp4
+- ID: 1351620000001-400070
+- Output: fmp4
 - Max Height: 160
 - Max Width: 284
 
@@ -1405,8 +1405,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **Smooth 400k**
 --------------------------
 - Description: Smooth 400k
-- ID 1351620000001-400080
-- Output fmp4
+- ID: 1351620000001-400080
+- Output: fmp4
 - Max Height: 128
 - Max Width: 224
 
@@ -1439,8 +1439,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **MPEG-Dash Video - 4.8M**
 --------------------------
 - Description: MPEG-Dash Video - 4.8M
-- ID 1351620000001-500020
-- Output fmp4
+- ID: 1351620000001-500020
+- Output: fmp4
 - Max Height: 720
 - Max Width: 1280
 
@@ -1473,8 +1473,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **MPEG-Dash Video - 2.4M**
 --------------------------
 - Description: MPEG-Dash Video - 2.4M
-- ID 1351620000001-500030
-- Output fmp4
+- ID: 1351620000001-500030
+- Output: fmp4
 - Max Height: 480
 - Max Width: 854
 
@@ -1507,8 +1507,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **MPEG-Dash Video - 1.2M**
 --------------------------
 - Description: MPEG-Dash Video - 1.2M
-- ID 1351620000001-500040
-- Output fmp4
+- ID: 1351620000001-500040
+- Output: fmp4
 - Max Height: 360
 - Max Width: 640
 
@@ -1541,8 +1541,8 @@ Blitline offers various different types of output transcoding. Below are the ava
 **MPEG-Dash Video - 600k**
 --------------------------
 - Description: MPEG-Dash Video - 600k
-- ID 1351620000001-500050
-- Output fmp4
+- ID: 1351620000001-500050
+- Output: fmp4
 - Max Height: 240
 - Max Width: 426
 
