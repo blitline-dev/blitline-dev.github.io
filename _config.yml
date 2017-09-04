@@ -1,11 +1,10 @@
-source:      .
+source: .
 gems:
   - jekyll-sitemap
 destination: ./_site
-plugins:     ./_plugins
+plugins: ./_plugins
 exclude: [bin, CNAME, Gemfile, Gemfile.lock, README.md, Dockerfile, fig.yml]
 permalink: /:title
-highlighter: rouge
 redcarpet:
 c  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
