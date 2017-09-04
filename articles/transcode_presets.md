@@ -11,7 +11,6 @@ Blitline offers various different types of output transcoding. Below are the ava
 
 <br/>
 
-
 **System preset generic 1080p**
 --------------------------
 - Description: System preset generic 1080p
@@ -21,6 +20,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1920",
@@ -41,6 +41,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -54,6 +55,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -73,6 +75,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -86,6 +89,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 854
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "854",
@@ -105,6 +109,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -118,6 +123,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -137,6 +143,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "900",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -150,6 +157,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -169,6 +177,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "720",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -182,6 +191,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 480
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "480",
@@ -201,6 +211,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "600",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -214,6 +225,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 320
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "320",
@@ -233,6 +245,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "300",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -246,6 +259,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1920",
@@ -265,6 +279,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5000",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -278,6 +293,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -297,6 +313,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1500",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -310,6 +327,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -329,6 +347,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5000",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -342,6 +361,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1920",
@@ -361,6 +381,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5000",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -374,6 +395,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -393,6 +415,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -406,6 +429,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -425,6 +449,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -438,6 +463,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1920",
@@ -457,6 +483,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -470,6 +497,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1920",
@@ -489,6 +517,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "5000",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -502,6 +531,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 720
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "720",
@@ -521,6 +551,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "6500",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -534,6 +565,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 720
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "720",
@@ -553,6 +585,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "6500",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -566,6 +599,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "1920",
@@ -587,6 +621,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "10000",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -600,6 +635,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "1920",
@@ -621,6 +657,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "10000",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -634,6 +671,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: auto
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "auto",
@@ -647,6 +685,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -660,6 +699,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -681,6 +721,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -694,6 +735,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "1920",
@@ -713,6 +755,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "50000",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -726,6 +769,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1920
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFill",
                "max_width" : "1920",
@@ -745,6 +789,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "50000",
     "display_aspect_ratio" : "16:9"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -758,6 +803,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -773,6 +819,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -786,6 +833,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -799,6 +847,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -812,6 +861,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -825,6 +875,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "600",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -838,6 +889,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1024
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1024",
@@ -857,6 +909,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1872",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -870,6 +923,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1024
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1024",
@@ -892,6 +946,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1872",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -905,6 +960,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 960
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "960",
@@ -924,6 +980,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1372",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -937,6 +994,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 960
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "960",
@@ -959,6 +1017,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1372",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -972,6 +1031,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -991,6 +1051,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "872",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1004,6 +1065,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -1026,6 +1088,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "872",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1039,6 +1102,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 480
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "480",
@@ -1058,6 +1122,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "472",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1071,6 +1136,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 480
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "480",
@@ -1093,6 +1159,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "472",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1106,6 +1173,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 400
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "400",
@@ -1125,6 +1193,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "272",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1138,6 +1207,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 400
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "400",
@@ -1160,6 +1230,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "272",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1173,6 +1244,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -1194,6 +1266,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2962",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1207,6 +1280,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 992
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "992",
@@ -1228,6 +1302,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2056",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1241,6 +1316,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 768
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "768",
@@ -1262,6 +1338,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1427",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1275,6 +1352,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 592
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "592",
@@ -1296,6 +1374,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "991",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1309,6 +1388,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 448
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "448",
@@ -1330,6 +1410,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "688",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1343,6 +1424,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 368
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "368",
@@ -1364,6 +1446,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "477",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1377,6 +1460,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 284
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "284",
@@ -1398,6 +1482,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "331",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1411,6 +1496,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 224
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "224",
@@ -1432,6 +1518,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "230",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1445,6 +1532,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 1280
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "1280",
@@ -1466,6 +1554,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "4800",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1479,6 +1568,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 854
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "854",
@@ -1500,6 +1590,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "2400",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1513,6 +1604,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 640
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "640",
@@ -1534,6 +1626,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "1200",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
@@ -1547,6 +1640,7 @@ Blitline offers various different types of output transcoding. Below are the ava
 - Max Width: 426
 
 {% highlight json %}
+
 {
            "sizing_policy" : "ShrinkToFit",
                "max_width" : "426",
@@ -1568,6 +1662,7 @@ Blitline offers various different types of output transcoding. Below are the ava
                 "bit_rate" : "600",
     "display_aspect_ratio" : "auto"
 }
+
 {% endhighlight %}
 
 <br/>
